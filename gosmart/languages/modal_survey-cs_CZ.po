@@ -1,0 +1,2769 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Modal Survey\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-03 18:00+0100\n"
+"PO-Revision-Date: Tue Mar 08 2016 13:46:15 GMT+0100 (StÅednÃ­ Evropa "
+"(bÄÅ¾nÃ½ Äas))\n"
+"Last-Translator: Honza Markel <j.markel@centrum.cz>\n"
+"Language-Team: \n"
+"Language: Czech\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\\\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Loco-Target-Locale: cs_CZ"
+
+#: modules/export_csv.php:49 modules/export_csv.php:52
+msgid "Total"
+msgstr "Celkem"
+
+#: modules/export_xls.php:109 modules/export_xls.php:112
+msgid "Total:"
+msgstr "Celkem:"
+
+#: settings.php:315 templates/settings_savedforms.php:1794
+msgid "Active Answer - click to change"
+msgstr "Aktivní odpověď - kliknutím změňte"
+
+#: settings.php:316 templates/settings_savedforms.php:1791
+msgid "Inactive Answer - click to change"
+msgstr "Neaktivní odpověď - kliknutím změňte"
+
+#: settings.php:811
+msgid "Survey Result"
+msgstr "Výsledek dotazníku"
+
+#: templates/settings_savedforms.php:1115
+msgid "Next Button Style:"
+msgstr "Styl tlačítka \"Další\""
+
+#: templates/settings_savedforms.php:1135
+msgid "Always Show the Next Button"
+msgstr "Při zapnutí bude tlačítko \"Další\" viditelné ve všech formách dotazníku."
+
+#: templates/settings_savedforms.php:1135
+msgid "Always Show Next Button"
+msgstr "Vždy zobrazuj tlačítko \"Další\""
+
+#: templates/settings_savedforms.php:1376
+msgid "Auto Response"
+msgstr "Automatická odpověď"
+
+#: templates/settings_savedforms.php:1377
+msgid "Sender Name"
+msgstr "Jméno odesílatele"
+
+#: templates/settings_savedforms.php:1377
+msgid "Sender Email Address"
+msgstr "E-mail odesílatele"
+
+#: templates/settings_savedforms.php:1377
+msgid "Subject"
+msgstr "Předmět"
+
+#: modal_survey.php:205
+msgid ""
+"Modal Survey needs to be reactivated to initialize the new updates and keep "
+"your existing settings. Please "
+msgstr ""
+"Je třeba reaktivovat Modal Survey k inicializaci nových aktualizací. Vaše "
+"stávající nastavení zůstanou zachována."
+
+#: modal_survey.php:205
+msgid "click here to go to the Plugins page "
+msgstr "Klikněte prosím sem pro přesměrování na stránku pluginu,"
+
+#: modal_survey.php:205
+msgid ", deactivate the plugin, then click on the Activate."
+msgstr "deaktivujte plugin, poté jej znovu aktivujte kliknutím na \"Activate\"."
+
+#: modal_survey.php:728 modal_survey.php:783 modal_survey.php:939
+#: modal_survey.php:1194 modal_survey.php:1328 modal_survey.php:1435
+msgid "Other"
+msgstr "Další"
+
+#: modal_survey.php:740 modal_survey.php:798 modules/export_csv.php:10
+#: modules/export_pdf.php:273 modules/export_txt.php:30
+#: modules/export_xls.php:48 modules/export_xml.php:13 settings.php:731
+#: templates/settings_participants.php:37
+#: templates/settings_participants.php:38
+#: templates/settings_participants.php:49
+msgid "Not Specified"
+msgstr "Nespecifikované"
+
+#: modal_survey.php:796 settings.php:272
+msgid "Answer Score"
+msgstr "Skóre odpovědi"
+
+#: modal_survey.php:798
+msgid "Global Votes"
+msgstr "Celkem hlasů"
+
+#: modal_survey.php:798
+msgid "Global Percentage"
+msgstr "Celkem procent"
+
+#: modal_survey.php:1185 modules/export_pdf.php:290
+msgid "votes"
+msgstr "hlasů"
+
+#: modal_survey.php:1600
+msgid "Personal: "
+msgstr "Osobní:"
+
+#: modal_survey.php:1600
+msgid "Average: "
+msgstr "Průměrně:"
+
+#: modal_survey.php:2079
+msgid "Settings"
+msgstr "Nastavení"
+
+#: modal_survey.php:2089
+msgid "Please enter your details below to continue."
+msgstr "Zadejte prosím vaše údaje, abyste mohli pokračovat."
+
+#: modal_survey.php:2090
+msgid "Enter your name"
+msgstr "Zadejte Vaše jméno"
+
+#: modal_survey.php:2091
+msgid "Enter your email address"
+msgstr "Zadejte e-mailovou adresu"
+
+#: modal_survey.php:2092
+msgid "SEND"
+msgstr "ODESLAT"
+
+#: modal_survey.php:2093
+msgid "SUCCESS"
+msgstr "VŠE PROBĚHLO V POŘÁDKU"
+
+#: modules/export_csv.php:5
+msgid "Survey ID"
+msgstr "ID Dotazníku"
+
+#: modules/export_csv.php:5 modules/export_xls.php:35
+msgid "Survey Name"
+msgstr "Jméno Dotazníku"
+
+#: modules/export_csv.php:5 modules/export_xls.php:35
+msgid "Generated"
+msgstr "Generováno"
+
+#: modules/export_csv.php:9 modules/export_pdf.php:271
+msgid "User ID"
+msgstr "ID Uživatele"
+
+#: modules/export_csv.php:9 modules/export_pdf.php:273
+#: modules/export_xls.php:44 templates/settings_participants.php:37
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: modules/export_csv.php:9 modules/export_xls.php:44
+#: templates/settings_savedforms.php:1832
+msgid "Created"
+msgstr "Vytvořeno"
+
+#: modules/export_csv.php:11 modules/export_pdf.php:274
+msgid "Email"
+msgstr "E-mail"
+
+#: modules/export_csv.php:11 modules/export_pdf.php:272
+#: modules/export_xls.php:52 templates/settings_participants.php:36
+#: templates/settings_participants.php:162
+#: templates/settings_savedforms.php:1830
+msgid "Name"
+msgstr "Jméno"
+
+#: modules/export_csv.php:13 modules/export_pdf.php:276
+#: modules/export_txt.php:33 modules/export_xls.php:60
+msgid "Participant answers marked with stars: *"
+msgstr "Odpovědi účastníka vyjádřené hvězdičkami: *"
+
+#: modules/export_csv.php:18 modules/export_csv.php:21
+#: modules/export_xls.php:66 modules/export_xls.php:69
+msgid "Question / Answer"
+msgstr "Otázka / Odpověď"
+
+#: modules/export_csv.php:18 modules/export_csv.php:21
+#: modules/export_xls.php:66 modules/export_xls.php:69
+#: templates/settings_participants.php:164
+msgid "Votes"
+msgstr "Hlasů"
+
+#: modules/export_csv.php:18 modules/export_csv.php:21
+#: modules/export_xls.php:66 modules/export_xls.php:69
+msgid "Percentage"
+msgstr "Procento"
+
+#: modules/export_csv.php:18 modules/export_pdf.php:303
+#: modules/export_xls.php:66 settings.php:241
+#: templates/settings_savedforms.php:1211
+#: templates/settings_savedforms.php:1232
+#: templates/settings_savedforms.php:1269
+#: templates/settings_savedforms.php:1273
+#: templates/settings_savedforms.php:1348
+msgid "Score"
+msgstr "Skóre"
+
+#: modules/export_csv.php:64
+msgid "fputcsv function doesn't exists"
+msgstr "funkce fputcsv neexistuje"
+
+#: modules/export_json.php:4 modules/export_pdf.php:334
+#: modules/export_txt.php:16 modules/export_txt.php:65
+#: modules/export_xls.php:122 modules/export_xml.php:46
+msgid "Write error"
+msgstr "Chyba zapisování"
+
+#: modules/export_pdf.php:196
+msgid "Generated by "
+msgstr "Vytvořeno pomocí"
+
+#: modules/export_pdf.php:246
+msgid "Generated: "
+msgstr "Vytvořeno:"
+
+#: modules/export_pdf.php:248 modules/export_pdf.php:272
+#: modules/export_txt.php:29 modules/export_xml.php:12 settings.php:730
+#: templates/settings_participants.php:36
+msgid "Anonymous"
+msgstr "Anonymní"
+
+#: modules/export_pdf.php:270
+msgid "Participants Details"
+msgstr "Detaily účastníka"
+
+#: modules/export_pdf.php:275 templates/settings_participants.php:165
+msgid "Date"
+msgstr "Datum"
+
+#: modules/export_pdf.php:278
+msgid "Personal Chart"
+msgstr "Osobní graf"
+
+#: modules/export_pdf.php:278
+msgid "Global Chart"
+msgstr "Celkový graf"
+
+#: modules/export_pdf.php:286
+msgid "Total votes:"
+msgstr "Celkem hlasů:"
+
+#: modules/export_pdf.php:293
+msgid "vote"
+msgstr "hlas"
+
+#: modules/export_pdf.php:309
+msgid "of total votes"
+msgstr "z celkem hlasů"
+
+#: modules/export_txt.php:22
+msgid "Survey ID:"
+msgstr "ID Dotazníku"
+
+#: modules/export_txt.php:23
+msgid "Survey Name:"
+msgstr "Jméno Dotazníku"
+
+#: modules/export_txt.php:24
+msgid "Export Time:"
+msgstr "Čas exportu:"
+
+#: modules/export_txt.php:28
+msgid "User ID:"
+msgstr "ID Uživatele"
+
+#: modules/export_txt.php:29
+msgid "Name:"
+msgstr "Jméno"
+
+#: modules/export_txt.php:30
+msgid "Username:"
+msgstr "Uživatelské jméno"
+
+#: modules/export_txt.php:31
+msgid "Email:"
+msgstr "E-mail"
+
+#: modules/export_txt.php:32
+msgid "Date:"
+msgstr "Datum:"
+
+#: modules/export_txt.php:52
+msgid "Answer:"
+msgstr "Odpověď:"
+
+#: modules/export_txt.php:53
+msgid "Count:"
+msgstr "Součet:"
+
+#: modules/export_txt.php:54
+msgid "Percentage:"
+msgstr "Procento:"
+
+#: modules/export_txt.php:59
+msgid "Total Votes:"
+msgstr "Celkem hlasů:"
+
+#: modules/export_xls.php:16
+msgid "generated by"
+msgstr "vytvořeno pomocí"
+
+#: modules/manual.update.php:36 modules/manual.update.php:39
+#: modules/manual.update.php:42
+msgid "Security check failed, Update process terminated."
+msgstr "Bezpečnostní kontrola selhala, proces aktualizace byl zastaven."
+
+#: modules/manual.update.php:49
+msgid "File doesn't exists or damaged."
+msgstr "Soubor neexistuje nebo je poškozený."
+
+#: modules/manual.update.php:53
+msgid "ZIP Uploaded..."
+msgstr "ZIP soubor byl nahrán."
+
+#: modules/manual.update.php:83
+msgid "Failed to create folders..."
+msgstr "Nepodařilo se vytvořit složky..."
+
+#: modules/manual.update.php:89
+msgid "ZIP unpacked, collecting datas..."
+msgstr "ZIP soubor rozbalen, sbírám data..."
+
+#: modules/manual.update.php:92
+msgid ""
+"ZIP file is not compatible with this plugin or it is not a valid WordPress "
+"Plugin"
+msgstr ""
+"ZIP soubor není kompatibilní s tímto pluginem nebo se nejedná o platný "
+"plugin pro WordPress"
+
+#: modules/manual.update.php:93
+msgid "Plugin name doesn't match. Is this the same plugin?"
+msgstr "Jméno pluginu nesouhlasí. Jedná se skutečně o správný plugin?"
+
+#: modules/manual.update.php:98
+msgid "Current Version: "
+msgstr "Současná verze:"
+
+#: modules/manual.update.php:99
+msgid "Uploaded Version: "
+msgstr "Nahraná verze:"
+
+#: modules/manual.update.php:101
+msgid "START UPDATE"
+msgstr "ZAHÁJIT UPDATE"
+
+#: modules/manual.update.php:101
+msgid "DO NOT UPDATE (Delete uploaded temp files)"
+msgstr "NEAKTUALIZOVAT (Smazat nahraná dočasná data)"
+
+#: modules/manual.update.php:105
+msgid "Changelog"
+msgstr "Changelog"
+
+#: modules/manual.update.php:109
+msgid "There was an error unzipping the file. Is it a valid ZIP file?"
+msgstr "Při rozbalování souboru došlo k chybě. Jedná se o platný soubor ZIP?"
+
+#: modules/manual.update.php:129
+msgid "Update Files has been successfully removed."
+msgstr "Aktualizační soubory byly úspěšně odstraněny."
+
+#: modules/manual.update.php:135
+msgid "Copying files..."
+msgstr "Kopíruji soubory..."
+
+#: modules/manual.update.php:137
+msgid "Removing temp folder..."
+msgstr "Odstraňuji dočasný adresář..."
+
+#: modules/manual.update.php:139
+msgid "Plugin files has been successfully updated..."
+msgstr "Soubory pluginu byly úspěšně aktualizovány."
+
+#: modules/manual.update.php:146
+msgid "Plugin Activation Initialized Successfully..."
+msgstr "Aktivace pluginu byla úspěšně inicializována..."
+
+#: modules/manual.update.php:152
+msgid ""
+"After uploaded the ZIP file you can decide to continue the update process or "
+"discard the changes."
+msgstr ""
+"Po nahrání ZIP souboru se můžete rozhodnout, zda budete pokračovat v "
+"aktualizaci nebo proces zastavíte."
+
+#: modules/manual.update.php:156
+msgid "Browse the new version ZIP file:"
+msgstr "Prozkoumat ZIP soubor s novou verzí:"
+
+#: modules/manual.update.php:157 templates/settings_import.php:97
+msgid "UPLOAD"
+msgstr "NAHRÁT"
+
+#: settings.php:118
+msgid "Modal Survey - Votes by Surveys"
+msgstr "Modal Survey - Hlasy podle dotazníků"
+
+#: settings.php:126
+msgid "Modal Survey - Votes by Days"
+msgstr "Modal Survey - Hlasy podle dní"
+
+#: settings.php:164 settings.php:186
+msgid "Not enough votes to display summarized chart"
+msgstr "Příliš málo hlasů na zobrazení souhrnného grafu"
+
+#: settings.php:237
+msgid "Another chart has been already added!"
+msgstr "Již byl přidán jiný graf!"
+
+#: settings.php:238
+msgid "You must set all condition parameters!"
+msgstr "Musíte zadat všechny parametry podmínky!"
+
+#: settings.php:239 templates/settings_savedforms.php:1206
+#: templates/settings_savedforms.php:1265
+msgid "Final Score"
+msgstr "Celkové skóre"
+
+#: settings.php:240 templates/settings_savedforms.php:1207
+#: templates/settings_savedforms.php:1266
+msgid "Correct Answers"
+msgstr "Správné odpovědi"
+
+#: settings.php:242 settings.php:373 templates/settings_savedforms.php:1211
+#: templates/settings_savedforms.php:1269
+#: templates/settings_savedforms.php:1718
+msgid "Question"
+msgstr "Otázka"
+
+#: settings.php:243 templates/settings_savedforms.php:1232
+#: templates/settings_savedforms.php:1273
+msgid "Category"
+msgstr "Kategorie"
+
+#: settings.php:244 templates/settings_savedforms.php:1237
+#: templates/settings_savedforms.php:1275
+msgid "higher than"
+msgstr "vyšší než"
+
+#: settings.php:245 templates/settings_savedforms.php:1238
+#: templates/settings_savedforms.php:1276
+msgid "equal with"
+msgstr "se rovná"
+
+#: settings.php:246 templates/settings_savedforms.php:1239
+#: templates/settings_savedforms.php:1277
+msgid "lower than"
+msgstr "nižší než"
+
+#: settings.php:247
+msgid "Invalid URL has been specified!"
+msgstr "Byla zadána neplatná URL adresa!"
+
+#: settings.php:248 templates/settings_savedforms.php:1279
+msgid "then"
+msgstr "tak"
+
+#: settings.php:249 templates/settings_savedforms.php:1244
+#: templates/settings_savedforms.php:1281
+msgid "redirect to"
+msgstr "přesměruj na stránku"
+
+#: settings.php:250 templates/settings_savedforms.php:1245
+#: templates/settings_savedforms.php:1284
+msgid "display message at the end"
+msgstr "zobraz na konci dotazníku zprávu"
+
+#: settings.php:251 templates/settings_savedforms.php:1246
+#: templates/settings_savedforms.php:1287
+msgid "set social sharing title to"
+msgstr "nastav  jako titulek pro sdílení následující"
+
+#: settings.php:252 templates/settings_savedforms.php:1247
+#: templates/settings_savedforms.php:1290
+msgid "set social sharing description to"
+msgstr "nastav jako popis pro sdílení následující"
+
+#: settings.php:253 templates/settings_savedforms.php:1248
+#: templates/settings_savedforms.php:1293
+msgid "set social sharing image URL to"
+msgstr "nastav jako obrázek pro sdílení následující"
+
+#: settings.php:254 templates/settings_savedforms.php:1249
+#: templates/settings_savedforms.php:1296
+msgid "display individual rating chart at the end"
+msgstr "zobraz na konci dotazníku graf s osobním hodnocením"
+
+#: settings.php:255 templates/settings_savedforms.php:1250
+#: templates/settings_savedforms.php:1299
+msgid "display individual score chart at the end"
+msgstr "zobraz na konci dotazníku graf s osobním skóre"
+
+#: settings.php:256 templates/settings_savedforms.php:1251
+#: templates/settings_savedforms.php:1302
+msgid "display individual correct answers chart at the end"
+msgstr "zobraz na konci dotazníku účastníkovy správné odpovědi"
+
+#: settings.php:257 templates/settings_savedforms.php:1698
+#: templates/settings_savedforms.php:1741
+msgid "Remove"
+msgstr "Odstranit"
+
+#: settings.php:258 templates/settings_savedforms.php:1706
+#: templates/settings_savedforms.php:1749
+msgid "Add Image"
+msgstr "Přidat obrázek"
+
+#: settings.php:259 templates/settings_newform.php:8
+msgid "New Survey"
+msgstr "Nový Dotazník"
+
+#: settings.php:260
+msgid "Error during the save process"
+msgstr "Chyba při ukládání"
+
+#: settings.php:261
+msgid "Successful! Redirecting to the survey form."
+msgstr "V pořádku! Přesměrovávám na formulář dotazníku."
+
+#: settings.php:262 templates/settings_savedforms.php:1787
+#: templates/settings_savedforms.php:1797
+#: templates/settings_savedforms.php:1800
+msgid "Answer Options"
+msgstr "Možnosti odpovědi"
+
+#: settings.php:263 settings.php:374
+msgid "Answer"
+msgstr "Odpověď"
+
+#: settings.php:264 templates/settings_savedforms.php:1800
+msgid "Remove Answer"
+msgstr "Odstranit odpověď"
+
+#: settings.php:265 settings.php:266 templates/settings_savedforms.php:1734
+msgid "Set the width of the image in pixel or percentage. Eg.: 150px or 50%"
+msgstr "Zadejte šířku obrázku v pixelech nebo procentech. Např.: 150px nebo 50%"
+
+#: settings.php:267
+msgid "Image Width"
+msgstr "Šířka obrázku"
+
+#: settings.php:268
+msgid "Image Height"
+msgstr "Výška obrázku"
+
+#: settings.php:269 settings.php:270 templates/settings_savedforms.php:1734
+msgid "120px"
+msgstr "120px"
+
+#: settings.php:271 templates/settings_savedforms.php:1734
+msgid "Enter the score number for this answer"
+msgstr "Zadejte počet bodů za tuto odpověď"
+
+#: settings.php:273 templates/settings_savedforms.php:1734
+msgid "Number"
+msgstr "Počet bodů"
+
+#: settings.php:274 templates/settings_savedforms.php:1734
+msgid "Set this answer as correct answer"
+msgstr "Nastaví tuto odpověď jako správnou odpověď."
+
+#: settings.php:275 templates/settings_savedforms.php:1734
+msgid "Set as Correct"
+msgstr "Správná odpověď"
+
+#: settings.php:276
+msgid "You already added an open answer to this question."
+msgstr "K této otázce jste už přidali otevřenou odpověď."
+
+#: settings.php:277 templates/settings_savedforms.php:1757
+msgid "Open Text Answer"
+msgstr "Otevřená (textová) odpověď"
+
+#: settings.php:278
+msgid "Type your answer here"
+msgstr "Napište vaši odpověď"
+
+#: settings.php:279
+msgid "Autocomplete"
+msgstr "Dokončit automaticky"
+
+#: settings.php:280 templates/settings_savedforms.php:1712
+#: templates/settings_savedforms.php:1718
+msgid "Question Options"
+msgstr "Možnosti otázky"
+
+#: settings.php:281 templates/settings_savedforms.php:1710
+msgid "Specify how many answers can be selectable by the users"
+msgstr "Zadejte kolik odpovědí MOHOU účastníci vybrat."
+
+#: settings.php:282
+msgid "Optional Answers"
+msgstr "Nepovinné odpovědi"
+
+#: settings.php:283 templates/settings_savedforms.php:1711
+msgid "Define how many answers needs to be selected by the user"
+msgstr "Zadejte kolik odpovědí MUSÍ účastníci vybrat."
+
+#: settings.php:284
+msgid "Required Answers"
+msgstr "Povinné odpovědi"
+
+#: settings.php:285 templates/settings_savedforms.php:1711
+msgid "Set this question as a Rating Question, it will convert answers to stars"
+msgstr "Nastaví tuto otázku jako hodnocení. Odpovědi se zobrazí jako hvězdičky."
+
+#: settings.php:286 templates/settings_savedforms.php:1711
+msgid "Set as Rating Question"
+msgstr "Nastavit jako Hodnocení"
+
+#: settings.php:287 templates/settings_savedforms.php:1676
+msgid "Remove Question"
+msgstr "Odstranit otázku"
+
+#: settings.php:288 settings.php:382
+msgid "No"
+msgstr "Ne"
+
+#: settings.php:289 templates/settings_savedforms.php:1797
+msgid "Add New Open Answer"
+msgstr "Přidat Otevřenou (textovou) odpověď"
+
+#: settings.php:290 templates/settings_savedforms.php:1797
+msgid "Add New Answer"
+msgstr "Přidat odpověď"
+
+#: settings.php:291
+msgid "Was this information helpful?"
+msgstr "Byla tato informace užitečná?"
+
+#: settings.php:292
+msgid "Do you like this website?"
+msgstr "Líbí se vám tyto stránky?"
+
+#: settings.php:293
+msgid "Did you find this website easily?"
+msgstr "Našli jste tyto stránky snadno?"
+
+#: settings.php:294
+msgid "Did you find this website through Search Engine?"
+msgstr "Našli jste tyto stránky pomocí vyhledávače?"
+
+#: settings.php:295
+msgid "Did you already bookmark this website?"
+msgstr "Přidali jste si už tyto stránky do záložek?"
+
+#: settings.php:296
+msgid "Do you like this survey?"
+msgstr "Líbí se vám tento dotazník?"
+
+#: settings.php:297
+msgid "Do you visit this website first time?"
+msgstr "Jste na těchto stránkách poprvé?"
+
+#: settings.php:298
+msgid "Are you employed?"
+msgstr "Jste zaměstnaní?"
+
+#: settings.php:299
+msgid "SAVE"
+msgstr "ULOŽIT"
+
+#: settings.php:300 templates/settings_savedforms.php:1815
+msgid "UPDATE"
+msgstr "AKTUALIZOVAT"
+
+#: settings.php:301
+msgid "SAVED"
+msgstr "ULOŽENO"
+
+#: settings.php:302
+msgid "UPDATED"
+msgstr "AKTUALIZOVÁNO"
+
+#: settings.php:303
+msgid "TRY AGAIN"
+msgstr "ZKUSTE TO ZNOVU"
+
+#: settings.php:304 templates/settings_savedforms.php:1863
+msgid "Delete Survey"
+msgstr "Smazat Dotazník"
+
+#: settings.php:305
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: settings.php:306
+msgid "Reset Survey"
+msgstr "Vynulovat Dotazník"
+
+#: settings.php:307 templates/settings_participants.php:186
+#: templates/settings_savedforms.php:1869
+msgid "Export Charts"
+msgstr "Exportovat grafy"
+
+#: settings.php:308
+msgid "Export without Charts"
+msgstr "Exportovat bez grafů"
+
+#: settings.php:309 templates/settings_savedforms.php:1854
+msgid "Duplicate"
+msgstr "Duplikovat"
+
+#: settings.php:310 templates/settings_savedforms.php:1857
+msgid "Delete"
+msgstr "Smazat"
+
+#: settings.php:311
+msgid "Survey name already exists, import failed!"
+msgstr "Jméno dotazníku už existuje, import selhal!"
+
+#: settings.php:312
+msgid "Survey name is required, import failed!"
+msgstr "Jméno dotazníku je povinný údaj, import selhal!"
+
+#: settings.php:313
+msgid "is ready"
+msgstr "je připraven"
+
+#: settings.php:314
+msgid "download from here."
+msgstr "stáhněte tady."
+
+#: settings.php:346
+msgid "Insert Modal Survey"
+msgstr "Vložit Dotazník"
+
+#: settings.php:347
+msgid "Mode"
+msgstr "Mód"
+
+#: settings.php:348
+msgid "Modal"
+msgstr "Vyskakovací okno"
+
+#: settings.php:349
+msgid "Embed"
+msgstr "Vložený do stránek"
+
+#: settings.php:350
+msgid "Scroll Display in Embed Mode"
+msgstr "Scrolování obrazovky při vložení do stránek"
+
+#: settings.php:351
+msgid "Enable"
+msgstr "Povolit"
+
+#: settings.php:352
+msgid "Disable"
+msgstr "Zakázat"
+
+#: settings.php:353
+msgid "Width"
+msgstr "Šířka"
+
+#: settings.php:354
+msgid "Alignment"
+msgstr "Zarovnání"
+
+#: settings.php:355 templates/settings_savedforms.php:369
+#: templates/settings_savedforms.php:440
+msgid "Center"
+msgstr "Na střed"
+
+#: settings.php:356
+msgid "Left"
+msgstr "Vlevo"
+
+#: settings.php:357 templates/settings_savedforms.php:441
+msgid "Right"
+msgstr "Vpravo"
+
+#: settings.php:358
+msgid "Text Alignment"
+msgstr "Zarovnání textu"
+
+#: settings.php:359
+msgid "Message"
+msgstr "Zpráva pro ty, co již vyplnili"
+
+#: settings.php:360
+msgid "You already filled out this survey!"
+msgstr "Tento dotazník jste již vyplňovali!"
+
+#: settings.php:361
+msgid "Insert Modal Survey Results"
+msgstr "Vložení výsledků dotazníku"
+
+#: settings.php:362 templates/settings_savedforms.php:1335
+msgid "Progress Bar"
+msgstr "Graf pokroku"
+
+#: settings.php:363 templates/settings_savedforms.php:1336
+msgid "Line Bar"
+msgstr "Čárový diagram"
+
+#: settings.php:364 templates/settings_savedforms.php:1337
+msgid "Pie Chart"
+msgstr "Koláčový graf"
+
+#: settings.php:365 templates/settings_savedforms.php:1338
+msgid "Bar Chart"
+msgstr "Sloupcový graf"
+
+#: settings.php:366 templates/settings_savedforms.php:1339
+msgid "Doughnut Chart"
+msgstr "Donut graf"
+
+#: settings.php:367 templates/settings_savedforms.php:1340
+msgid "Line Chart"
+msgstr "Čárový graf"
+
+#: settings.php:368 templates/settings_savedforms.php:1341
+msgid "Polar Chart"
+msgstr "Výsečový graf"
+
+#: settings.php:369 templates/settings_savedforms.php:1342
+msgid "Radar Chart"
+msgstr "Radarový graf"
+
+#: settings.php:370
+msgid "Text"
+msgstr "Text"
+
+#: settings.php:371 templates/settings_savedforms.php:1354
+msgid "Data Type"
+msgstr "Typ dat"
+
+#: settings.php:372
+msgid "Full"
+msgstr "Úplné"
+
+#: settings.php:375
+msgid "Answer Count (only in Text Mode)"
+msgstr "Počitadlo odpovědí (pouze v textovém módu)"
+
+#: settings.php:376
+msgid "Answer Percentage (only in Text Mode)"
+msgstr "Procento odpovědí (pouze v textovém módu)"
+
+#: settings.php:377
+msgid "Question Number (Question & Answer Data Types)"
+msgstr "Číslo otázky (typy dat Otázky a Odpovědi)"
+
+#: settings.php:378
+msgid "Answer Number (for Answer Data Types)"
+msgstr "Číslo odpovědi (pro typ dat Odpovědi)"
+
+#: settings.php:379
+msgid "Background Color Code (HEX - for Progress Bar)"
+msgstr "Barva pozadí (HEX - pro Graf pokroku)"
+
+#: settings.php:380
+msgid "Font Color Code (HEX - for Progress Bar)"
+msgstr "Barva písma (HEX - pro Graf pokroku)"
+
+#: settings.php:381
+msgid "Hide Counter"
+msgstr "Skrýt počítadlo"
+
+#: settings.php:383
+msgid "Yes"
+msgstr "Ano"
+
+#: settings.php:384
+msgid "Hide Question Text"
+msgstr "Skrýt text otázky"
+
+#: settings.php:385 templates/settings_participants.php:163
+msgid "Survey"
+msgstr "Dotazník"
+
+#: settings.php:386
+msgid "Results"
+msgstr "Výsledky"
+
+#: settings.php:425
+msgid "Display Once per User"
+msgstr "Zobrazit uživateli jen jednou"
+
+#: settings.php:425 settings.php:426 settings.php:427 settings.php:428
+#: settings.php:429 settings.php:443 settings.php:444
+msgid "On"
+msgstr "Zap."
+
+#: settings.php:425 settings.php:426 settings.php:427 settings.php:428
+#: settings.php:429 settings.php:443 settings.php:444
+msgid "Off"
+msgstr "Vyp."
+
+#: settings.php:425
+msgid "Display the same survey for the same users twice."
+msgstr "Zobrazit dotazník stejnému uživateli dvakrát."
+
+#: settings.php:426
+msgid "Display Once per Filled Out"
+msgstr "Zobrazit jen jednou, pokud uživatel vyplní dotazník"
+
+#: settings.php:426
+msgid "Display the same survey for the same users who already filled out."
+msgstr "Zobrazovat dotazník i uživatelům, kteří už jej vyplnili."
+
+#: settings.php:427
+msgid "Keep Settings after Uninstall"
+msgstr "Při odinstalování zachovat nastavení"
+
+#: settings.php:427
+msgid ""
+"Keeps your settings during uninstall. Helps to protect your saved datas when "
+"updating to a new version."
+msgstr ""
+"Zachovává vaše nastavení při odinstalování pluginu. Pomáhá ochránit vaše "
+"data při updatování na novější verzi pluginu."
+
+#: settings.php:428
+msgid "Minify Scripts"
+msgstr "Minifikovat skripty"
+
+#: settings.php:428
+msgid "Use minified and obfuscated JavaScript files on frontend."
+msgstr ""
+"Použijí se minifikované Java skripty na front-endu (lepší uživatelská "
+"zkušenost)"
+
+#: settings.php:429
+msgid "Save Participants Votes"
+msgstr "Ukládat hlasy účastníků"
+
+#: settings.php:429
+msgid ""
+"Save the participants votes to display them in the Participants page on the "
+"admin"
+msgstr "Ukládá hlasy účastníků z dotazníků. Hlasy se poté zobrazují v administraci."
+
+#: settings.php:430
+msgid "PDF Export Header Text"
+msgstr "Text v hlavičce exportovaného PDF"
+
+#: settings.php:431
+msgid "PDF Export Font Family"
+msgstr "Font family pro export PDF"
+
+#: settings.php:431
+msgid "Set the Font Family to display special characters correctly."
+msgstr "Nastaví Font Family pro správné zobrazení speciálních znaků."
+
+#: settings.php:432
+msgid "Initialize plugin"
+msgstr "Inicializovat plugin"
+
+#: settings.php:432
+msgid ""
+"Change the initialization hook if you have troubles with the signup form "
+"display."
+msgstr ""
+"Změňte inicializační hook, pokud potíž se zobrazováním přihlašovacího "
+"formuláře."
+
+#: settings.php:443
+msgid "Social Sharing"
+msgstr "Sociální sdílení"
+
+#: settings.php:443
+msgid "Enable Social Sharing at the end of the Surveys."
+msgstr "Umožní sdílení v sociálních sítích na konci dotazníku."
+
+#: settings.php:444
+msgid "Embed Social Metas"
+msgstr "Vložit sociální meta data"
+
+#: settings.php:444
+msgid ""
+"Automatically embed og:description, og:url, og:image, og:type and og:"
+"site_name based on the current page ."
+msgstr ""
+"Automaticky vloží meta data pro open graph: popis, url adresu, typ příspěvku "
+"a název stránky - podle aktuální stránky s dotazníkem."
+
+#: settings.php:445
+msgid "Social Sites"
+msgstr "Sociální sítě"
+
+#: settings.php:445
+msgid "Set the available social sites for sharing."
+msgstr "Nastavte sociální sítě dostupné pro sdílení."
+
+#: settings.php:446
+msgid "Social Buttons Style"
+msgstr "Styl sdílecích tlačítek"
+
+#: settings.php:446
+msgid "Set the style of the Social Buttons"
+msgstr "Nastavuje styl tlačítek pro sdílení"
+
+#: settings.php:447
+msgid "Social Buttons Position"
+msgstr "Pozice sdílecích tlačítek"
+
+#: settings.php:447
+msgid "Position of Social Buttons"
+msgstr "Určete, kde se mají sdílecí tlačítka zobrazit."
+
+#: settings.php:448
+msgid "Facebook APP ID"
+msgstr "Facebook APP ID"
+
+#: settings.php:448
+msgid "Specify your FB App ID to set custom title and description for sharing."
+msgstr ""
+"Zadejte ID vaší FB aplikace pro nastavení vlastního titulku a popisu pro "
+"sdílení."
+
+#: settings.php:453
+msgid "Enter you custom CSS code"
+msgstr "Zadejte vlastní CSS styly"
+
+#: settings.php:491
+msgid "when calling get_footer() hook"
+msgstr "při volání hooku get footer()"
+
+#: settings.php:492
+msgid "when calling wp_footer() hook"
+msgstr "při volání hooku wp_footer()"
+
+#: settings.php:493
+msgid "when print the content"
+msgstr "při tisku obsahu"
+
+#: settings.php:498 templates/settings_savedforms.php:374
+#: templates/settings_savedforms.php:445 templates/settings_savedforms.php:1156
+#: templates/settings_savedforms.php:1347
+msgid "Default"
+msgstr "Původní"
+
+#: settings.php:499
+msgid "Default Large"
+msgstr "Původní Velké"
+
+#: settings.php:500
+msgid "Clean"
+msgstr "Čisté"
+
+#: settings.php:501
+msgid "Clean Large"
+msgstr "Čisté Velké"
+
+#: settings.php:506
+msgid "Always visible"
+msgstr "Vždy viditelné"
+
+#: settings.php:507
+msgid "Display at the end only"
+msgstr "Zobrazit pouze na konci dotazníku."
+
+#: settings.php:508
+msgid "Display at the end in the content"
+msgstr "Zobrazit na konci dotazníku v rámci obsahu."
+
+#: settings.php:618
+msgid "Create Survey"
+msgstr "Vytvořit Dotazník"
+
+#: settings.php:619 templates/settings_savedforms.php:4
+msgid "Saved Surveys"
+msgstr "Uložené Dotazníky"
+
+#: settings.php:620 templates/settings_participants.php:4
+msgid "Participants"
+msgstr "Účastníci"
+
+#: settings.php:621 templates/settings_general.php:4
+msgid "General Settings"
+msgstr "Obecná nastavení"
+
+#: settings.php:622 templates/settings_social.php:4
+msgid "Social Settings"
+msgstr "Nastavení sdílení"
+
+#: settings.php:623 templates/settings_import.php:4
+msgid "Import"
+msgstr "Import"
+
+#: settings.php:624 templates/settings_customcss.php:4
+msgid "Custom CSS"
+msgstr "Vlastní CSS"
+
+#: settings.php:625 templates/settings_update.php:5
+msgid "Update"
+msgstr "Update"
+
+#: settings.php:626 templates/settings_help.php:4
+msgid "Help"
+msgstr "Nápověda"
+
+#: settings.php:633 settings.php:640 settings.php:648 settings.php:657
+#: settings.php:664 settings.php:671 settings.php:678 settings.php:685
+#: settings.php:692
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemáte dostatečné oprávnění pro zobrazení této stránky."
+
+#: settings.php:730
+msgid "Participant Name:"
+msgstr "Jméno účastníka:"
+
+#: settings.php:731
+msgid "Participant Email Address:"
+msgstr "E-mailová adresa účastníka:"
+
+#: settings.php:755
+msgid "Participant votes marked with grey rows."
+msgstr "Hlasy účastníka vyznačené v šedých řádcích."
+
+#: settings.php:755
+msgid "Click here to see the full details."
+msgstr "Kliknutím zobrazíte všechny detaily."
+
+#: settings.php:760
+msgid "Survey Completed"
+msgstr "Dotazník dokončen"
+
+#: templates/settings_customcss.php:1 templates/settings_general.php:1
+#: templates/settings_help.php:1 templates/settings_import.php:1
+#: templates/settings_newform.php:1 templates/settings_participants.php:1
+#: templates/settings_savedforms.php:1 templates/settings_social.php:1
+#: templates/settings_update.php:1
+msgid "LOADING"
+msgstr "NAČÍTÁNÍ"
+
+#: templates/settings_customcss.php:1 templates/settings_general.php:1
+#: templates/settings_help.php:1 templates/settings_import.php:1
+#: templates/settings_newform.php:1 templates/settings_participants.php:1
+#: templates/settings_savedforms.php:1 templates/settings_social.php:1
+#: templates/settings_update.php:1
+msgid "Please wait..."
+msgstr "Počekejte prosím..."
+
+#: templates/settings_customcss.php:5 templates/settings_general.php:5
+#: templates/settings_help.php:7 templates/settings_import.php:5
+#: templates/settings_newform.php:5 templates/settings_participants.php:5
+#: templates/settings_savedforms.php:11 templates/settings_social.php:5
+#: templates/settings_update.php:6
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: templates/settings_general.php:9 templates/settings_social.php:9
+msgid "Settings saved."
+msgstr "Nastavení uloženo."
+
+#: templates/settings_help.php:7
+msgid "To see the full documentation, please click on the following link:"
+msgstr "Pro kompletní dokumentaci klikněte na následující odkaz:"
+
+#: templates/settings_import.php:19
+msgid "Security check failed."
+msgstr "Bezepčnostní kontrola selhala."
+
+#: templates/settings_import.php:24
+msgid "Survey name is required. Import failed."
+msgstr "Jméno Dotazníku je vyžadováno. Import selhal."
+
+#: templates/settings_import.php:27
+msgid "Survey ID generation failed. Symbols and special characters are not allowed."
+msgstr "Selhalo generování ID dotazníku. Symboly a speciální znaky nejsou povoleny."
+
+#: templates/settings_import.php:31
+msgid "Survey name is already exists. Import failed."
+msgstr "Jméno Dotazníku už existuje. Import selhal."
+
+#: templates/settings_import.php:35
+msgid "File empty or not valid JSON file. Import failed."
+msgstr "Soubor je prázdný nebo se nejedná o platný JSON soubor. Import selhal."
+
+#: templates/settings_import.php:81
+msgid "File successfully imported!"
+msgstr "Soubor úspěšně importován!"
+
+#: templates/settings_import.php:81 templates/settings_savedforms.php:1855
+msgid "Edit"
+msgstr "Upravit"
+
+#: templates/settings_import.php:89
+msgid "Imported Survey Name:"
+msgstr "Jméno importovaného dotazníku:"
+
+#: templates/settings_import.php:96
+msgid "Browse the import JSON file:"
+msgstr "Prozkoumat importovaný soubor JSON:"
+
+#: templates/settings_newform.php:4
+msgid "Create New Survey"
+msgstr "Vytvořit nový Dotazník"
+
+#: templates/settings_newform.php:8
+msgid "Type the survey name here"
+msgstr "Zadejte jméno dotazníku"
+
+#: templates/settings_participants.php:22
+msgid "Selected Rows Successfully Deleted!"
+msgstr "Vybrané řádky byly úspěšně vymazány!"
+
+#: templates/settings_participants.php:25
+msgid "Error Occurred During the Deletion!"
+msgstr "V průběhu mazání dat se vyskytla chyba!"
+
+#: templates/settings_participants.php:38
+msgid "Email Address"
+msgstr "E-mailová adresa"
+
+#: templates/settings_participants.php:39
+msgid "Survey URL"
+msgstr "URL Dotazníku"
+
+#: templates/settings_participants.php:52
+msgid "IP Address"
+msgstr "IP adresa"
+
+#: templates/settings_participants.php:57
+msgid "Surveys"
+msgstr "Dotazníky"
+
+#: templates/settings_participants.php:77
+msgid "SET"
+msgstr "NASTAVIT"
+
+#: templates/settings_participants.php:92
+msgid "Personal Rating Chart"
+msgstr "Osobní graf hodnocení"
+
+#: templates/settings_participants.php:93
+msgid "Global Rating Chart"
+msgstr "Celkový graf hodnocení"
+
+#: templates/settings_participants.php:96
+msgid "Personal Score Chart"
+msgstr "Osobní graf dosaženého skóre"
+
+#: templates/settings_participants.php:97
+msgid "Global Score Chart"
+msgstr "Celkový graf dosaženého skóre"
+
+#: templates/settings_participants.php:112
+msgid "Personal Answers"
+msgstr "Osobní odpovědi"
+
+#: templates/settings_participants.php:119
+#: templates/settings_savedforms.php:1656
+msgid "Export Survey"
+msgstr "Exportovat Dotazník"
+
+#: templates/settings_participants.php:152
+msgid "The list is limited to "
+msgstr "Seznam obsahuje omezený počet"
+
+#: templates/settings_participants.php:152
+msgid "entries"
+msgstr "záznamů"
+
+#: templates/settings_participants.php:152
+msgid "If you would like to see the full list, "
+msgstr "Chcete-li zobrazit kompletní seznam,"
+
+#: templates/settings_participants.php:152
+msgid "please click here"
+msgstr "klikněte prosím sem."
+
+#: templates/settings_participants.php:161
+#: templates/settings_savedforms.php:1829
+msgid "ID"
+msgstr "ID"
+
+#: templates/settings_participants.php:179
+msgid "DELETE SELECTED"
+msgstr "SMAZAT VYBRANÉ"
+
+#: templates/settings_participants.php:183
+msgid "Delete Participants Datas?"
+msgstr "Smazat data účastníků?"
+
+#: templates/settings_participants.php:184
+msgid "The selected participants datas will be permanently deleted! Are you sure?"
+msgstr ""
+"Data vybraných účastníků budou permanentně odstraněna. Opravdu to chcete "
+"udělat?"
+
+#: templates/settings_participants.php:187
+#: templates/settings_savedforms.php:1870
+msgid "Would you like to export charts to the PDF?"
+msgstr "Chcete grafy exportovat do PDF?"
+
+#: templates/settings_savedforms.php:8
+msgid "Tutorial"
+msgstr "Tutorial"
+
+#: templates/settings_savedforms.php:19
+msgid "Survey name already exists"
+msgstr "Jméno dotazníku už existuje"
+
+#: templates/settings_savedforms.php:22
+msgid "Survey successfully deleted!"
+msgstr "Dotazník byl úspěšně vymazán!"
+
+#: templates/settings_savedforms.php:23
+msgid "Survey successfully duplicated!"
+msgstr "Dotazník byl úspěšně duplikován!"
+
+#: templates/settings_savedforms.php:24
+msgid "Survey successfully reseted!"
+msgstr "Účastník byl úspěšně resetován!"
+
+#: templates/settings_savedforms.php:25
+msgid "Action failed due to error! "
+msgstr "Stala se chyba - akce neproběhla!"
+
+#: templates/settings_savedforms.php:360
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+#: templates/settings_savedforms.php:362
+msgid "Survey Options"
+msgstr "Možnosti Dotazníku"
+
+#: templates/settings_savedforms.php:363
+msgid "General Behavior"
+msgstr "Obecné nastavení / chování"
+
+#: templates/settings_savedforms.php:365
+msgid "Display style:"
+msgstr "Způsob zobrazení:"
+
+#: templates/settings_savedforms.php:367
+msgid "Bottom"
+msgstr "Na konci stránky"
+
+#: templates/settings_savedforms.php:368
+msgid "Top"
+msgstr "Na začátku stránky"
+
+#: templates/settings_savedforms.php:372
+msgid "Mode:"
+msgstr "Mód:"
+
+#: templates/settings_savedforms.php:375
+msgid "Embed to Posts End"
+msgstr "Vložit na konec příspěvků"
+
+#: templates/settings_savedforms.php:376
+msgid "Embed to Posts Start"
+msgstr "Vložit na začátek příspěvků"
+
+#: templates/settings_savedforms.php:377
+msgid "Embed to Pages Start"
+msgstr "Vložit na začátek stránek"
+
+#: templates/settings_savedforms.php:378
+msgid "Embed to Pages End"
+msgstr "Vložit na konec stránek"
+
+#: templates/settings_savedforms.php:379
+msgid "Embed to bbPress Topics"
+msgstr "Vložit do témat v bbPress fóru"
+
+#: templates/settings_savedforms.php:382
+msgid "Animation Easing:"
+msgstr "Zmírnění animace"
+
+#: templates/settings_savedforms.php:418
+msgid "Animation Speed:"
+msgstr "Rychlost animace"
+
+#: templates/settings_savedforms.php:419
+msgid "End Delay:"
+msgstr "Konec zpoždění"
+
+#: templates/settings_savedforms.php:419
+msgid ""
+"Delay time to hide the survey after the completion. Set it to 0 to disable "
+"automatic hiding."
+msgstr ""
+"Čas zpoždění pro skrytí dotazníku po jeho vyplnění. Zadejte hodnotu 0 pro "
+"vypnutí automatického skrývání dotazníku."
+
+#: templates/settings_savedforms.php:420
+msgid "Display Timer:"
+msgstr "Zobrazit časovač:"
+
+#: templates/settings_savedforms.php:420
+msgid "Delay time to display the survey."
+msgstr "Čas zpoždění před zobrazení dotazníku."
+
+#: templates/settings_savedforms.php:421
+msgid "Enable if you want to display the survey on the entire website"
+msgstr "Povolte, pokud chcete zobrazit dotazník kompletně na celém webu."
+
+#: templates/settings_savedforms.php:421
+msgid "Global Survey"
+msgstr "Globální dotazník"
+
+#: templates/settings_savedforms.php:423
+msgid "Lock the screen with a transparent background"
+msgstr "Uzamkne obrazovku průhledným pozadím"
+
+#: templates/settings_savedforms.php:423
+msgid "Lock Screen"
+msgstr "Uzamknout obrazovku"
+
+#: templates/settings_savedforms.php:424
+msgid "Users can close the survey"
+msgstr "Uživatel může zavřít okno s dotazníkem"
+
+#: templates/settings_savedforms.php:424
+msgid "Closeable"
+msgstr "Uzavíratelné"
+
+#: templates/settings_savedforms.php:425
+msgid "The survey will appear when the user scrolled down at the bottom of the page"
+msgstr "Dotazník se zobrazí poté, co uživatel sjede na konec stránky."
+
+#: templates/settings_savedforms.php:425
+msgid "Display at bottom"
+msgstr "Zobrazit na konci stránky"
+
+#: templates/settings_savedforms.php:426
+msgid "Show survey for logged in users only"
+msgstr "Zobrazí dotazník pouze přihlášeným uživatelům."
+
+#: templates/settings_savedforms.php:426
+msgid "Logged In Only"
+msgstr "Pouze přihlášení"
+
+#: templates/settings_savedforms.php:429
+msgid "Style and Appearance"
+msgstr "Styl a vzhled"
+
+#: templates/settings_savedforms.php:431
+msgid "Colors:"
+msgstr "Barvy:"
+
+#: templates/settings_savedforms.php:432
+msgid "Background Color"
+msgstr "Barva pozadí"
+
+#: templates/settings_savedforms.php:433
+msgid "Font Color"
+msgstr "Barva písma"
+
+#: templates/settings_savedforms.php:434
+msgid "Border Color"
+msgstr "Barva ohraničení"
+
+#: templates/settings_savedforms.php:435
+msgid "Shadow Color"
+msgstr "Barva stínu"
+
+#: templates/settings_savedforms.php:437
+msgid "Text Align:"
+msgstr "Zarovnání textu:"
+
+#: templates/settings_savedforms.php:439
+msgid "Left:"
+msgstr "Vlevo:"
+
+#: templates/settings_savedforms.php:444
+msgid "Font Family:"
+msgstr "Font Family:"
+
+#: templates/settings_savedforms.php:1100
+msgid "Number of Answers in One Row:"
+msgstr "Počet odpovědí v jedné řadě:"
+
+#: templates/settings_savedforms.php:1122
+msgid "Shadow Horizontal:"
+msgstr "Vržený stín horizontálně:"
+
+#: templates/settings_savedforms.php:1123
+msgid "Shadow Vertical:"
+msgstr "Vržený stín vertikálně:"
+
+#: templates/settings_savedforms.php:1124
+msgid "Shadow Blur:"
+msgstr "Rozmazání stínu:"
+
+#: templates/settings_savedforms.php:1125
+msgid "Shadow Spread:"
+msgstr "Rozšíření stínu:"
+
+#: templates/settings_savedforms.php:1126
+msgid "Border Width:"
+msgstr "Tloušťka ohraničení:"
+
+#: templates/settings_savedforms.php:1127
+msgid "Border Radius:"
+msgstr "Zaoblení rohů:"
+
+#: templates/settings_savedforms.php:1129
+msgid "Font Size:"
+msgstr "Velikost písma:"
+
+#: templates/settings_savedforms.php:1130
+msgid "Padding:"
+msgstr "Odsazení:"
+
+#: templates/settings_savedforms.php:1131
+msgid "Line Height:"
+msgstr "Výška řádku:"
+
+#: templates/settings_savedforms.php:1133
+msgid "Display Progress of the Survey"
+msgstr "Zobrazí uživateli pokrok v dotazníku - kolik je hotovo, kolik zbývá."
+
+#: templates/settings_savedforms.php:1133
+msgid "Show Progress Bar"
+msgstr "Zobrazit Graf pokroku"
+
+#: templates/settings_savedforms.php:1134
+msgid "Display Answers as List Layout"
+msgstr "Zobrazí odpovědi ve formě seznamu (pod sebou)."
+
+#: templates/settings_savedforms.php:1134
+msgid "List Layout"
+msgstr "Zobrazit jako seznam"
+
+#: templates/settings_savedforms.php:1138
+msgid "Miscellaneous"
+msgstr "Různé nastavení"
+
+#: templates/settings_savedforms.php:1140
+msgid "Preloader:"
+msgstr "Preloader:"
+
+#: templates/settings_savedforms.php:1142
+msgid "Preloader 1"
+msgstr "Preloader 1"
+
+#: templates/settings_savedforms.php:1143
+msgid "Preloader 2"
+msgstr "Preloader 2"
+
+#: templates/settings_savedforms.php:1144
+msgid "Preloader 3"
+msgstr "Preloader 3"
+
+#: templates/settings_savedforms.php:1145
+msgid "Preloader 4"
+msgstr "Preloader 4"
+
+#: templates/settings_savedforms.php:1146
+msgid "Preloader 5"
+msgstr "Preloader 5"
+
+#: templates/settings_savedforms.php:1147
+msgid "Preloader 6"
+msgstr "Preloader 6"
+
+#: templates/settings_savedforms.php:1148
+msgid "Preloader 7"
+msgstr "Preloader 7"
+
+#: templates/settings_savedforms.php:1149
+msgid "Preloader 8"
+msgstr "Preloader 8"
+
+#: templates/settings_savedforms.php:1150
+msgid "Preloader 9"
+msgstr "Preloader 9"
+
+#: templates/settings_savedforms.php:1151
+msgid "Preloader 10"
+msgstr "Preloader 10"
+
+#: templates/settings_savedforms.php:1154
+msgid "Hover Effect:"
+msgstr "Efekt při přejetí myší"
+
+#: templates/settings_savedforms.php:1157
+#: templates/settings_savedforms.php:1169
+msgid "Style 1"
+msgstr "Styl 1"
+
+#: templates/settings_savedforms.php:1158
+#: templates/settings_savedforms.php:1170
+msgid "Style 2"
+msgstr "Styl 2"
+
+#: templates/settings_savedforms.php:1159
+#: templates/settings_savedforms.php:1171
+msgid "Style 3"
+msgstr "Styl 3"
+
+#: templates/settings_savedforms.php:1160
+#: templates/settings_savedforms.php:1172
+msgid "Style 4"
+msgstr "Styl 4"
+
+#: templates/settings_savedforms.php:1161
+#: templates/settings_savedforms.php:1173
+msgid "Style 5"
+msgstr "Styl 5"
+
+#: templates/settings_savedforms.php:1162
+#: templates/settings_savedforms.php:1174
+msgid "Style 6"
+msgstr "Styl 6"
+
+#: templates/settings_savedforms.php:1163
+#: templates/settings_savedforms.php:1175
+msgid "Style 7"
+msgstr "Styl 7"
+
+#: templates/settings_savedforms.php:1164
+#: templates/settings_savedforms.php:1176
+msgid "Style 8"
+msgstr "Styl 8"
+
+#: templates/settings_savedforms.php:1167
+msgid "Close Icon Style:"
+msgstr "Styl ikony \"ZAVŘÍT\":"
+
+#: templates/settings_savedforms.php:1177
+msgid "Style 9"
+msgstr "Styl 9"
+
+#: templates/settings_savedforms.php:1178
+msgid "Style 10"
+msgstr "Styl 10"
+
+#: templates/settings_savedforms.php:1181
+msgid "Close Icon Size:"
+msgstr "Velikost ikony \"ZAVŘÍT\""
+
+#: templates/settings_savedforms.php:1183
+msgid "Small"
+msgstr "Malá"
+
+#: templates/settings_savedforms.php:1184
+msgid "Medium"
+msgstr "Střední"
+
+#: templates/settings_savedforms.php:1185
+msgid "Large"
+msgstr "Velká"
+
+#: templates/settings_savedforms.php:1188
+msgid "Start time:"
+msgstr "Začátek:"
+
+#: templates/settings_savedforms.php:1188
+msgid "Leave it blank to activate the survey immediately"
+msgstr "Nevyplňujte, pokud chcete, aby byl dotazník aktivní ihned."
+
+#: templates/settings_savedforms.php:1189
+msgid "Expiry time:"
+msgstr "Konec:"
+
+#: templates/settings_savedforms.php:1189
+msgid "Never expire the survey when you leave this blank"
+msgstr "Nevyplňujte, pokud chcete dotazník časově neomezený"
+
+#: templates/settings_savedforms.php:1191
+msgid "Cookie Expiration Time:"
+msgstr "Doba platnosti cookies:"
+
+#: templates/settings_savedforms.php:1194
+msgid "Redirect the browser to the specified URL after the user complete the survey"
+msgstr "Přesměruje uživatele na zadanou URL adresu poté, co vyplní dotazník."
+
+#: templates/settings_savedforms.php:1194
+msgid "Redirect URL:"
+msgstr "URL adresa k přesměrování:"
+
+#: templates/settings_savedforms.php:1195
+msgid "Display message at the end of the survey"
+msgstr "Zobrazí na konci dotazníku zvolenou zprávu"
+
+#: templates/settings_savedforms.php:1195
+msgid "Thank you message:"
+msgstr "Zpráva na konci dotazníku:"
+
+#: templates/settings_savedforms.php:1196
+msgid ""
+"Send the individual results of the completed surveys to the specified email "
+"address. Keep empty to disable."
+msgstr ""
+"Odešle osobní výsledky dotazníku na zadanou e-mailovou adresu. Pro vypnutí "
+"funkce nechte pole prázdné."
+
+#: templates/settings_savedforms.php:1196
+msgid "Send Results to:"
+msgstr "Odeslat výsledky na:"
+
+#: templates/settings_savedforms.php:1197
+msgid "Play Survey"
+msgstr "Přehrát dotazník"
+
+#: templates/settings_savedforms.php:1202
+msgid "Conditions"
+msgstr "Podmínky"
+
+#: templates/settings_savedforms.php:1202
+msgid "Set Actions based on the Votes"
+msgstr "Určete akce, které proběhnou na základě toho, jak účastníci odpovídají."
+
+#: templates/settings_savedforms.php:1254
+msgid "Add New Condition"
+msgstr "Přidat novou podmínku"
+
+#: templates/settings_savedforms.php:1261
+msgid "If"
+msgstr "Pokud"
+
+#: templates/settings_savedforms.php:1327
+msgid "End Content"
+msgstr "Konec obsahu"
+
+#: templates/settings_savedforms.php:1327
+msgid "Display Chart at the end of the Survey"
+msgstr "zobraz graf na konci dotazníku"
+
+#: templates/settings_savedforms.php:1330
+msgid "Enable Chart at the completion of survey"
+msgstr "zpřístupni graf po vyplnění dotazníku"
+
+#: templates/settings_savedforms.php:1330
+msgid "Enable Chart"
+msgstr "zpřístupni graf"
+
+#: templates/settings_savedforms.php:1334
+msgid "Chart Style"
+msgstr "styl grafu"
+
+#: templates/settings_savedforms.php:1346
+msgid "Chart Type"
+msgstr "typ grafu"
+
+#: templates/settings_savedforms.php:1349
+msgid "Average Score"
+msgstr "průměrné skóre"
+
+#: templates/settings_savedforms.php:1350
+msgid "Rating"
+msgstr "hodnocení"
+
+#: templates/settings_savedforms.php:1355
+msgid "Cumulated"
+msgstr "kumulované"
+
+#: templates/settings_savedforms.php:1356
+msgid "Individual"
+msgstr "jednotlivé"
+
+#: templates/settings_savedforms.php:1360
+msgid "Advanced Chart"
+msgstr "pokročilý graf"
+
+#: templates/settings_savedforms.php:1364
+msgid "Participants Form"
+msgstr "Osobní formulář"
+
+#: templates/settings_savedforms.php:1364
+msgid "Display Form at the Completion of Survey"
+msgstr "Zobrazí formulář po vyplnění dotazníku"
+
+#: templates/settings_savedforms.php:1367
+msgid "Enable Form at the end of the Survey"
+msgstr "Zobrazí formulář na konci dotazníku"
+
+#: templates/settings_savedforms.php:1367
+msgid "Enable Form"
+msgstr "Povol formulář"
+
+#: templates/settings_savedforms.php:1370
+msgid "Enable Name Field in the Form"
+msgstr "Zobrazí pole ve formuláři \"Jméno\"."
+
+#: templates/settings_savedforms.php:1370
+msgid "Request Name"
+msgstr "Požadovat jméno"
+
+#: templates/settings_savedforms.php:1371
+msgid "Enable Email Field in the Form"
+msgstr "zobrazí ve formuláři pole \"e-mailová adresa\""
+
+#: templates/settings_savedforms.php:1371
+msgid "Request Email Address"
+msgstr "Požadovat e-mail"
+
+#: templates/settings_savedforms.php:1372
+msgid "Validate Email Address"
+msgstr "Potvrzení e-mailové adresy"
+
+#: templates/settings_savedforms.php:1383
+msgid "Campaigns"
+msgstr "Auto-respondery / e-mailové kampaně"
+
+#: templates/settings_savedforms.php:1383
+msgid "Save the survey's form datas automatically to Newsletter Campaigns"
+msgstr ""
+"Ukládá data z formulářů automaticky do e-mail listu ve zvoleném "
+"autoresponderu"
+
+#: templates/settings_savedforms.php:1387
+msgid "Enable Active Campaign"
+msgstr "Povolit Active Campaign"
+
+#: templates/settings_savedforms.php:1390
+msgid ""
+"Find your Active Campaign API URL in your Active Campaign Account->My "
+"Settings->API menu after you logged in"
+msgstr ""
+"API URL k Active Campaign najdete ve vašem účtu AC po přihlášení: Active "
+"Campaign Account->My Settings->API menu"
+
+#: templates/settings_savedforms.php:1390
+msgid "Active Campaign API URL"
+msgstr "Active Campaign API URL"
+
+#: templates/settings_savedforms.php:1391
+msgid ""
+"Find your Active Campaign API Key in your Active Campaign Account->My "
+"Settings->API menu after you logged in"
+msgstr ""
+"API klíč k Active Campign najdete po přihlášení do vašeho AC účtu: Active "
+"Campaign Account->My Settings->API menu"
+
+#: templates/settings_savedforms.php:1391
+msgid "Active Campaign API Key"
+msgstr "Active Campaign API Key"
+
+#: templates/settings_savedforms.php:1392
+msgid ""
+"Select your list in your Active Campaign account, then see the List ID in "
+"the URL. Eg.: List ID=1 from username.activehosted.com/contact/?"
+"listid=1&status=1"
+msgstr ""
+"V účtu Active Campaign zvolte seznam (list), na který chcete údaje přidávat. "
+"List ID se zobrazí v URL adrese."
+
+#: templates/settings_savedforms.php:1392
+msgid "Active Campaign List ID"
+msgstr "Zadejte Active Campaign List ID"
+
+#: templates/settings_savedforms.php:1397
+msgid "Enable AWeber"
+msgstr "Povolit Aweber"
+
+#: templates/settings_savedforms.php:1400
+msgid "Enter your AWeber Authorization Code"
+msgstr "Zadejte váš autorizační kód k Aweber"
+
+#: templates/settings_savedforms.php:1400
+msgid "Authorization Code"
+msgstr "Autorizační kód"
+
+#: templates/settings_savedforms.php:1401
+msgid "Get Authorization Code"
+msgstr "Získat autorizační kód"
+
+#: templates/settings_savedforms.php:1402
+msgid "Authorization Code is required for connection."
+msgstr "Pro připojení je vyžadován autorizační kód."
+
+#: templates/settings_savedforms.php:1403
+msgid "Get your AWeber Consumer Key with Click on the Get Credentials button"
+msgstr "AWeber Consumer Key získáte kliknutím na tlačítko \"Get credentials\""
+
+#: templates/settings_savedforms.php:1403
+msgid "Consumer Key"
+msgstr "Zadejte Consumer Key"
+
+#: templates/settings_savedforms.php:1404
+msgid "Get your AWeber Consumer Secret with Click on the Get Credentials button"
+msgstr "AWeber Consumer Secret získáte po kliknutí na tlačítko \"Get credentials\""
+
+#: templates/settings_savedforms.php:1404
+msgid "Consumer Secret"
+msgstr "Zadejte Consumer Secret"
+
+#: templates/settings_savedforms.php:1405
+msgid "Get your AWeber Access Key with Click on the Get Credentials button"
+msgstr " AWeber Access Key získáte po kliknutí na tlačítko \"Get credentials\""
+
+#: templates/settings_savedforms.php:1405
+msgid "Access Key"
+msgstr "Zadejte Access Key"
+
+#: templates/settings_savedforms.php:1406
+msgid "Get your AWeber Access Secret with Click on the Get Credentials button"
+msgstr "AWeber Access Secret získáte po kliknutí na tlačítko \"Get credentials\""
+
+#: templates/settings_savedforms.php:1406
+msgid "Access Secret"
+msgstr "Zadejte Access Secret"
+
+#: templates/settings_savedforms.php:1407
+msgid "Enter your AWeber List ID"
+msgstr "Zadejte ID seznamuv  AWeberu (List ID)"
+
+#: templates/settings_savedforms.php:1407
+msgid "List ID"
+msgstr "List ID\n"
+
+#: templates/settings_savedforms.php:1412
+msgid "Enable Benchmark"
+msgstr "Povolit Benchmark"
+
+#: templates/settings_savedforms.php:1415
+msgid "Click here to get your API Key"
+msgstr "Klikněte sem pro získání API klíče"
+
+#: templates/settings_savedforms.php:1415
+msgid "Registration required"
+msgstr "Je vyžadována registarce"
+
+#: templates/settings_savedforms.php:1415
+msgid "Benchmark API Key"
+msgstr "Benchmark API klíč"
+
+#: templates/settings_savedforms.php:1415
+msgid "Enter your Benchmark API Key"
+msgstr "Zadejte váš Benchmark API klíč"
+
+#: templates/settings_savedforms.php:1416
+msgid "Enter your Benchmark List ID"
+msgstr "Zadejte ID Benchmark listu"
+
+#: templates/settings_savedforms.php:1416
+msgid "Click here to get your Benchmark Lists."
+msgstr "Klikněte se pro získání Benchmark listu"
+
+#: templates/settings_savedforms.php:1416
+#: templates/settings_savedforms.php:1469
+msgid "Valid API Key is required for getting the lists."
+msgstr "Pro přístup k listu je vyžadován validní API klíč"
+
+#: templates/settings_savedforms.php:1416
+msgid "Benchmark List ID"
+msgstr "Benchmark List ID"
+
+#: templates/settings_savedforms.php:1417
+#: templates/settings_savedforms.php:1539
+msgid "Enable Double-Optin"
+msgstr "Povolit double-optin"
+
+#: templates/settings_savedforms.php:1417
+msgid "Enable Double Optin"
+msgstr "Povolit double-optin"
+
+#: templates/settings_savedforms.php:1423
+msgid "Enable Campaign Monitor"
+msgstr "Povolit Campaign Monitor"
+
+#: templates/settings_savedforms.php:1426
+msgid "Campaign Monitor API Key"
+msgstr "Campaign Monitor API klíč"
+
+#: templates/settings_savedforms.php:1426
+msgid "Log in to your Campaign Monitor account and find the API Key in "
+msgstr "Přihlaste se do vašeho účtu v Campign Monitor a najděte API klíč"
+
+#: templates/settings_savedforms.php:1426
+msgid "Account Settings"
+msgstr "Nastavení účtu"
+
+#: templates/settings_savedforms.php:1427
+msgid "Campaign Monitor List ID"
+msgstr "Campaign Monitor List ID"
+
+#: templates/settings_savedforms.php:1427
+msgid ""
+"Find your Campaign Monitor List ID in the bottom of the Edit screen of your "
+"chosen List"
+msgstr ""
+"Campaign Monitor List ID najdete na konci stránky s úpravami vybraného listu "
+"(seznamu)"
+
+#: templates/settings_savedforms.php:1432
+msgid "Enable Campayn"
+msgstr "Povolit Campayn"
+
+#: templates/settings_savedforms.php:1435
+msgid "You can see in the URL after you logged in to Campayn"
+msgstr "Po přhlášení do Campayn ji uvidíte v řádku URL adresy"
+
+#: templates/settings_savedforms.php:1435
+msgid "Campayn Domain"
+msgstr "Campayn doména"
+
+#: templates/settings_savedforms.php:1436
+msgid "Find it here"
+msgstr "Naleznete zde"
+
+#: templates/settings_savedforms.php:1436
+msgid "replace xxx to your Campayn Domain"
+msgstr "nahraďte xxx ve vaší Campayn doméně"
+
+#: templates/settings_savedforms.php:1436
+msgid "Campayn API Key"
+msgstr "Campayn API klíč"
+
+#: templates/settings_savedforms.php:1437
+msgid "Enter your Campayn List ID"
+msgstr "Zadejte Campayn List ID"
+
+#: templates/settings_savedforms.php:1437
+msgid "Click here to get your Campayn Lists."
+msgstr "Klikněte sem pro přechod k vašim Campayn listům (seznamům)"
+
+#: templates/settings_savedforms.php:1437
+msgid "Valid API Key and Domain are required for getting the lists."
+msgstr "Pro získání Listu se vyžaduje validní API klíč a doména"
+
+#: templates/settings_savedforms.php:1437
+msgid "Campayn List ID"
+msgstr "Campayn List ID"
+
+#: templates/settings_savedforms.php:1443
+msgid "Enable Constant Contact"
+msgstr "Povolit Constant Contact"
+
+#: templates/settings_savedforms.php:1446
+msgid "Enter your Constant Contact API Key"
+msgstr "Zadejte váš Constant Contact API klíč"
+
+#: templates/settings_savedforms.php:1446
+msgid "Constant Contact API Key"
+msgstr "Constant Contact API klíč"
+
+#: templates/settings_savedforms.php:1447
+msgid "Enter your Constant Contact Access Token"
+msgstr "Zadejte váš Constant Contact Access Token"
+
+#: templates/settings_savedforms.php:1447
+msgid "Constant Contact Access Token"
+msgstr "Constant Contact Access Token"
+
+#: templates/settings_savedforms.php:1448
+msgid "Enter your Constant Contact List ID"
+msgstr "Zadejte vaše Constant Contact List ID"
+
+#: templates/settings_savedforms.php:1448
+msgid "Click here to get your Constant Contact Lists."
+msgstr "Klikněte sem pro přechod na Constant Contact listy (seznamy)"
+
+#: templates/settings_savedforms.php:1448
+msgid "Valid API Key and Access Token are required for getting the lists."
+msgstr "Pro přístup k listům je vyždován validní API klíč a Access Token"
+
+#: templates/settings_savedforms.php:1448
+msgid "Constant Contact List ID"
+msgstr "Constant Contact List ID"
+
+#: templates/settings_savedforms.php:1451
+msgid "To get API Key,"
+msgstr "Pro získání API klíče"
+
+#: templates/settings_savedforms.php:1451
+msgid "register here"
+msgstr "se registrujte zde"
+
+#: templates/settings_savedforms.php:1451
+msgid "and"
+msgstr "a"
+
+#: templates/settings_savedforms.php:1451
+msgid "create you APP here"
+msgstr "vytvořte si aplikaci zde"
+
+#: templates/settings_savedforms.php:1451
+msgid "Select your app and get the Access Token here."
+msgstr "Vyberte svoji aplikaci a získejte Access Token zde."
+
+#: templates/settings_savedforms.php:1455
+msgid "Enable Freshmail"
+msgstr "Povolit Freshmail"
+
+#: templates/settings_savedforms.php:1458
+msgid "Click here to get your Freshmail API Key"
+msgstr "Klikněte sme pro získání Frshmail API klíče"
+
+#: templates/settings_savedforms.php:1458
+msgid "Freshmail API Key"
+msgstr "Freshmail API klíč"
+
+#: templates/settings_savedforms.php:1459
+msgid "Click here to get your Freshmail API Secret"
+msgstr "Klikněte sem pro získání Freshmail API Secret"
+
+#: templates/settings_savedforms.php:1459
+msgid "Freshmail API Secret"
+msgstr "Freshmail API Secret"
+
+#: templates/settings_savedforms.php:1460
+msgid ""
+"Click here to get your Lists, then select one and see the Freshmail List "
+"Hash in the URL. Eg.:"
+msgstr ""
+"Klikněte sem pro přístup k listům (seznamům), jeden vyberte a najděte "
+"Freshmail List Hash v řádku URL adresy"
+
+#: templates/settings_savedforms.php:1460
+msgid "from"
+msgstr "z"
+
+#: templates/settings_savedforms.php:1460
+msgid "Freshmail List Hash"
+msgstr "Freshmail List Hash"
+
+#: templates/settings_savedforms.php:1465
+msgid "Enable GetResponse"
+msgstr "Povolit GetResponse"
+
+#: templates/settings_savedforms.php:1468
+msgid "Click here to get your GetResponse API Key"
+msgstr "Klikněte sem pro získání Getresponse API klíče"
+
+#: templates/settings_savedforms.php:1468
+msgid "GetResponse API Key"
+msgstr "GetResponse API klíč"
+
+#: templates/settings_savedforms.php:1469
+msgid "Enter your GetResponse Campaign ID"
+msgstr "Zadejte vaše GetResponse Campaign ID"
+
+#: templates/settings_savedforms.php:1469
+msgid "Click here to get your GetResponse Campaigns."
+msgstr "Klikněte sem pro přístup k vašim GetResponse Campaigns"
+
+#: templates/settings_savedforms.php:1469
+msgid "GetResponse Campaign ID"
+msgstr "GetResponse Campaign ID"
+
+#: templates/settings_savedforms.php:1475
+msgid "Enable iContact"
+msgstr "Povolit iContact"
+
+#: templates/settings_savedforms.php:1478
+msgid "Enter your iContact appId"
+msgstr "Zadejte iContact appID"
+
+#: templates/settings_savedforms.php:1478
+msgid "iContact appId"
+msgstr "iContact appID"
+
+#: templates/settings_savedforms.php:1479
+msgid "Enter your iContact API Username"
+msgstr "Zadejte vaše iContact API Username"
+
+#: templates/settings_savedforms.php:1479
+msgid "iContact API Username"
+msgstr "iContact API Username"
+
+#: templates/settings_savedforms.php:1480
+msgid "Enter your iContact API Password"
+msgstr "Zadejte vaše iContact API Password"
+
+#: templates/settings_savedforms.php:1480
+msgid "iContact API Password"
+msgstr "iContact API Password"
+
+#: templates/settings_savedforms.php:1481
+msgid "Enter your iContact List ID"
+msgstr "Zadejte vaše iContact List ID"
+
+#: templates/settings_savedforms.php:1481
+msgid "iContact List ID"
+msgstr "iContact List ID"
+
+#: templates/settings_savedforms.php:1486
+msgid "Enable Infusionsoft"
+msgstr "Povolit Infusionsoft"
+
+#: templates/settings_savedforms.php:1489
+msgid "Enter your Infusionsoft API Key"
+msgstr "Zadejte váš Infusionsoft API klíč"
+
+#: templates/settings_savedforms.php:1489
+msgid "Infusionsoft API Key"
+msgstr "Infusionsoft API klíč"
+
+#: templates/settings_savedforms.php:1490
+msgid "Enter your Infusionsoft Campaign ID"
+msgstr "Zadejte vaše Infusionsoft Campaign ID"
+
+#: templates/settings_savedforms.php:1490
+msgid "Infusionsoft Campaign ID"
+msgstr "Infusionsoft Campaign ID"
+
+#: templates/settings_savedforms.php:1491
+msgid "Enter your Infusionsoft Group ID (optional)"
+msgstr "Zadejte Infusionsoft Group ID (volitelné)"
+
+#: templates/settings_savedforms.php:1491
+msgid "Infusionsoft Group ID"
+msgstr "Infusionsoft Group ID"
+
+#: templates/settings_savedforms.php:1496
+msgid "Enable Interspire"
+msgstr "Povolit Interspire"
+
+#: templates/settings_savedforms.php:1499
+msgid "Enter your Interspire Username"
+msgstr "Zadejte vaše Interspire Username"
+
+#: templates/settings_savedforms.php:1499
+msgid "Interspire Username"
+msgstr "Interspire Username"
+
+#: templates/settings_savedforms.php:1500
+msgid "Enter your Interspire User Token"
+msgstr "Zadejte Interspire User Token"
+
+#: templates/settings_savedforms.php:1500
+msgid "Interspire User Token"
+msgstr "Interspire User Token"
+
+#: templates/settings_savedforms.php:1501
+msgid "Enter your Interspire List ID"
+msgstr "Zadejte Interspire List ID"
+
+#: templates/settings_savedforms.php:1501
+msgid "Interspire List ID"
+msgstr "Interspire List ID"
+
+#: templates/settings_savedforms.php:1506
+msgid "Enable Mad Mimi"
+msgstr "Povolit Mad Mimi"
+
+#: templates/settings_savedforms.php:1509
+msgid "Enter your Mad Mimi Username"
+msgstr "Zadejte vaše Mad Mimi Username"
+
+#: templates/settings_savedforms.php:1509
+msgid "Mad Mimi Username(or email)"
+msgstr "Mad Mimi Username (nebo e-mail)"
+
+#: templates/settings_savedforms.php:1510
+msgid "Enter your Mad Mimi API Key"
+msgstr "Zadejte Mad Mimi API klíč"
+
+#: templates/settings_savedforms.php:1510
+msgid "Mad Mimi API Key"
+msgstr "Mad Mimi API klíč"
+
+#: templates/settings_savedforms.php:1511
+msgid "Enter your Mad Mimi List Name"
+msgstr "Zadejte Mad Mimi List Name"
+
+#: templates/settings_savedforms.php:1511
+msgid "Mad Mimi List Name"
+msgstr "Mad Mimi List Name"
+
+#: templates/settings_savedforms.php:1516
+msgid "Enable MailChimp"
+msgstr "Povolit MailChimp"
+
+#: templates/settings_savedforms.php:1519
+msgid "Enter your MailChimp API Key"
+msgstr "Zadejte MailChimp API klíč"
+
+#: templates/settings_savedforms.php:1519
+msgid "MailChimp API Key"
+msgstr "MailChimp API klíč"
+
+#: templates/settings_savedforms.php:1520
+msgid "Enter your MailChimp List ID"
+msgstr "Zadejte MailChimp List ID"
+
+#: templates/settings_savedforms.php:1520
+msgid "MailChimp List ID"
+msgstr "MailChimp List ID"
+
+#: templates/settings_savedforms.php:1525
+msgid "Enable MailerLite"
+msgstr "Povolit MailerLite"
+
+#: templates/settings_savedforms.php:1528
+msgid "Enter your MailerLite API Key"
+msgstr "Zadejte MailerLite API klíč"
+
+#: templates/settings_savedforms.php:1528
+msgid "MailerLite API Key"
+msgstr "MailerLite API klíč"
+
+#: templates/settings_savedforms.php:1529
+msgid "Enter your MailerLite List ID"
+msgstr "Zadejte MailerLite List ID"
+
+#: templates/settings_savedforms.php:1529
+msgid "MailerLite List ID"
+msgstr "MailerLite List ID"
+
+#: templates/settings_savedforms.php:1534
+msgid "Enable Mailigen"
+msgstr "Povolit Mailigen"
+
+#: templates/settings_savedforms.php:1537
+msgid "Enter your Mailigen API Key"
+msgstr "Zadejte Mailigen API klíč"
+
+#: templates/settings_savedforms.php:1537
+msgid "Mailigen API Key"
+msgstr "Mailigen API klíč"
+
+#: templates/settings_savedforms.php:1538
+msgid "Enter your Mailigen List ID"
+msgstr "Zadejte Mailigen List ID"
+
+#: templates/settings_savedforms.php:1538
+msgid "Mailigen List ID"
+msgstr "Mailigen List ID"
+
+#: templates/settings_savedforms.php:1544
+msgid "Enable Mailjet"
+msgstr "Povolit Mailjet"
+
+#: templates/settings_savedforms.php:1547
+msgid "Enter your Mailjet API Key"
+msgstr "Zadejte Mailjet API klíč"
+
+#: templates/settings_savedforms.php:1547
+msgid "Mailjet API Key"
+msgstr "Mailjet API klíč"
+
+#: templates/settings_savedforms.php:1548
+msgid "Enter your Mailjet Secret Key"
+msgstr "Zadejte váš Mailjet Secret Key"
+
+#: templates/settings_savedforms.php:1548
+msgid "Mailjet Secret Key"
+msgstr "Mailjet Secret Key"
+
+#: templates/settings_savedforms.php:1549
+msgid "Enter your Mailjet List ID"
+msgstr "Zadejte Mailjet List ID"
+
+#: templates/settings_savedforms.php:1549
+msgid "Mailjet List ID"
+msgstr "Mailjet List ID"
+
+#: templates/settings_savedforms.php:1554
+msgid "Enable MailPoet"
+msgstr "Povolit MailPoet"
+
+#: templates/settings_savedforms.php:1557
+msgid "Enter your MailPoet List ID"
+msgstr "Zadejte MailPoet List ID"
+
+#: templates/settings_savedforms.php:1557
+msgid "Click here to get your MailPoet Lists."
+msgstr "Klikněte sem pro přístup k MailPoet Listům (seznamům)"
+
+#: templates/settings_savedforms.php:1557
+msgid "MailPoet List ID"
+msgstr "MailPoet List ID"
+
+#: templates/settings_savedforms.php:1563
+msgid "Enable Emma"
+msgstr "Povolit Emma"
+
+#: templates/settings_savedforms.php:1566
+msgid "Enter your Emma Account ID"
+msgstr "Zadejte Emma Account ID"
+
+#: templates/settings_savedforms.php:1566
+msgid "Emma Account ID"
+msgstr "Emma Account ID"
+
+#: templates/settings_savedforms.php:1567
+msgid "Enter your Emma Public Key"
+msgstr "Zadejte váš Emma Public Key"
+
+#: templates/settings_savedforms.php:1567
+msgid "Emma Public Key"
+msgstr "Emma Public Key"
+
+#: templates/settings_savedforms.php:1568
+msgid "Enter your Emma Private Key"
+msgstr "Zadejte váš Emma Private Key"
+
+#: templates/settings_savedforms.php:1568
+msgid "Emma Private Key"
+msgstr "Emma Private Key"
+
+#: templates/settings_savedforms.php:1573
+msgid "Enable MyMail"
+msgstr "Povolit MyMail"
+
+#: templates/settings_savedforms.php:1576
+msgid "Enter your MyMail List ID"
+msgstr "Zadejte MyMail List ID"
+
+#: templates/settings_savedforms.php:1576
+msgid "Click here to get your MyMail Lists."
+msgstr "Klikněte sem pro přístup k MyMail Listům (seznamům)."
+
+#: templates/settings_savedforms.php:1576
+msgid "MyMail List ID"
+msgstr "MyMail List ID"
+
+#: templates/settings_savedforms.php:1582
+msgid "Enable ONTRAPORT"
+msgstr "Povolit ONTRAPORT"
+
+#: templates/settings_savedforms.php:1585
+msgid "Enter your ONTRAPORT APP ID"
+msgstr "Zadejte vaše ONTRAPORT APP ID"
+
+#: templates/settings_savedforms.php:1585
+msgid "ONTRAPORT APP ID"
+msgstr "ONTRAPORT APP ID"
+
+#: templates/settings_savedforms.php:1586
+msgid "Enter your ONTRAPORT Key"
+msgstr "Zadejte váš ONTRAPORT Key"
+
+#: templates/settings_savedforms.php:1586
+msgid "ONTRAPORT Key"
+msgstr "ONTRAPORT Key"
+
+#: templates/settings_savedforms.php:1587
+msgid "Enter your ONTRAPORT Tag ID"
+msgstr "Zadejte vaše ONTRAPORT Tag ID"
+
+#: templates/settings_savedforms.php:1587
+msgid "ONTRAPORT Tag ID"
+msgstr "ONTRAPORT Tag ID"
+
+#: templates/settings_savedforms.php:1588
+msgid "Enter your ONTRAPORT Sequence ID"
+msgstr "Zadejte vaše ONTRAPORT Sequence ID"
+
+#: templates/settings_savedforms.php:1588
+msgid "ONTRAPORT Sequence ID"
+msgstr "ONTRAPORT Sequence ID"
+
+#: templates/settings_savedforms.php:1593
+msgid "Enable Pinpointe"
+msgstr "Povolit Pinpointe"
+
+#: templates/settings_savedforms.php:1596
+msgid "Enter your Pinpointe Username"
+msgstr "Zadejte vaše Pinpointe Username"
+
+#: templates/settings_savedforms.php:1596
+msgid "Pinpointe Username"
+msgstr "Pinpointe Username"
+
+#: templates/settings_savedforms.php:1597
+msgid "Enter your Pinpointe User Token"
+msgstr "Zadejte váš Pinpointe User Token"
+
+#: templates/settings_savedforms.php:1597
+msgid "Pinpointe User Token"
+msgstr "Pinpointe User Token"
+
+#: templates/settings_savedforms.php:1598
+msgid "Enter your Pinpointe List ID"
+msgstr "Zadejte Pinpointe List ID"
+
+#: templates/settings_savedforms.php:1598
+msgid "Pinpointe List ID"
+msgstr "Pinpointe List ID"
+
+#: templates/settings_savedforms.php:1603
+msgid "Enable SendinBlue"
+msgstr "Povolit SendinBlue"
+
+#: templates/settings_savedforms.php:1606
+msgid "Enter your SendinBlue Access Key"
+msgstr "Zadejte váš SendinBlue Access Key"
+
+#: templates/settings_savedforms.php:1606
+msgid "SendinBlue Access Key"
+msgstr "SendinBlue Access Key"
+
+#: templates/settings_savedforms.php:1607
+msgid "Enter your SendinBlue List ID"
+msgstr "Zadejte SendinBlue List ID"
+
+#: templates/settings_savedforms.php:1607
+msgid "SendinBlue List ID"
+msgstr "SendinBlue List ID"
+
+#: templates/settings_savedforms.php:1612
+msgid "Enable SendReach"
+msgstr "Povolit SendReach"
+
+#: templates/settings_savedforms.php:1615
+msgid "Enter your SendReach Key"
+msgstr "Zadejte váš SendReach Key"
+
+#: templates/settings_savedforms.php:1615
+msgid "SendReach Key"
+msgstr "SendReach Key"
+
+#: templates/settings_savedforms.php:1616
+msgid "Enter your SendReach Secret"
+msgstr "Zadejte SendReach Secret"
+
+#: templates/settings_savedforms.php:1616
+msgid "SendReach Secret"
+msgstr "SendReach Secret"
+
+#: templates/settings_savedforms.php:1617
+msgid "Enter your SendReach User ID"
+msgstr "Zadejte vaše SendReach User ID"
+
+#: templates/settings_savedforms.php:1617
+msgid "SendReach User ID"
+msgstr "SendReach User ID"
+
+#: templates/settings_savedforms.php:1618
+msgid "Enter your SendReach List ID"
+msgstr "Zadejte SendReach List ID"
+
+#: templates/settings_savedforms.php:1618
+msgid "SendReach List ID"
+msgstr "SendReach List ID"
+
+#: templates/settings_savedforms.php:1623
+msgid "Enable Sendy"
+msgstr "Povolit Sendy"
+
+#: templates/settings_savedforms.php:1626
+msgid "Enter your Sendy Installation URL"
+msgstr "Zadejte vaši Sendy Installation URL"
+
+#: templates/settings_savedforms.php:1626
+msgid "Sendy Installation URL"
+msgstr "Sendy Installation URL"
+
+#: templates/settings_savedforms.php:1627
+msgid "Enter your Sendy API Key"
+msgstr "Zadejte váš Sendy API klíč"
+
+#: templates/settings_savedforms.php:1627
+msgid "Sendy API Key"
+msgstr "Sendy API klíč"
+
+#: templates/settings_savedforms.php:1628
+msgid "Enter your Sendy List ID"
+msgstr "Zadejte Sendy List ID"
+
+#: templates/settings_savedforms.php:1628
+msgid "Sendy List ID"
+msgstr "Sendy List ID"
+
+#: templates/settings_savedforms.php:1633
+msgid "Enable SimplyCast"
+msgstr "Povolit SimplyCast"
+
+#: templates/settings_savedforms.php:1636
+msgid "Click here to get your SimplyCast Public Key"
+msgstr "Klikněte sem pro získání vašeho SimplyCast Public Key"
+
+#: templates/settings_savedforms.php:1636
+msgid "SimplyCast Public Key"
+msgstr "SimplyCast Public Key"
+
+#: templates/settings_savedforms.php:1637
+msgid "Click here to get your SimplyCast Secret Key"
+msgstr "Klikněte sem pro získání vašeho SimplyCast Secret Key"
+
+#: templates/settings_savedforms.php:1637
+msgid "SimplyCast Secret Key"
+msgstr "SimplyCast Secret Key"
+
+#: templates/settings_savedforms.php:1638
+msgid "Click here to get your SimplyCast List ID"
+msgstr "Klikněte sem pro získání SimplyCast List ID"
+
+#: templates/settings_savedforms.php:1638
+msgid "SimplyCast List ID"
+msgstr "Zadejte SimplyCast List ID"
+
+#: templates/settings_savedforms.php:1643
+msgid "Enable YMLP"
+msgstr "Povolit YMPL"
+
+#: templates/settings_savedforms.php:1646
+msgid "Enter your YMLP Username"
+msgstr "Zadejte vaše uživatelské jméno pro YMPL"
+
+#: templates/settings_savedforms.php:1646
+msgid "YMLP Username"
+msgstr "YMPL username"
+
+#: templates/settings_savedforms.php:1647
+msgid "Enter your YMLP API Key"
+msgstr "Zadejte váš API klíč pro YMPL"
+
+#: templates/settings_savedforms.php:1647
+msgid "YMLP API Key"
+msgstr "YMLP API Key"
+
+#: templates/settings_savedforms.php:1648
+msgid "Enter your YMLP Group ID"
+msgstr "Zadejte YMLP Group ID"
+
+#: templates/settings_savedforms.php:1648
+msgid "Click here to get your YMLP Groups."
+msgstr "Klikněte sem pro přístup k YMLP Groups."
+
+#: templates/settings_savedforms.php:1648
+msgid "YMLP Group ID"
+msgstr "YMLP Group ID"
+
+#: templates/settings_savedforms.php:1669
+msgid "New Question"
+msgstr "Nová otázka"
+
+#: templates/settings_savedforms.php:1710
+msgid "Optional Answers:"
+msgstr "Nepovinné odpovědi:"
+
+#: templates/settings_savedforms.php:1711
+msgid "Required Answers:"
+msgstr "Povinné odpovědi:"
+
+#: templates/settings_savedforms.php:1714
+msgid "question"
+msgstr "otázka"
+
+#: templates/settings_savedforms.php:1718
+msgid "Type your question here"
+msgstr "Zadejte vaši otázku"
+
+#: templates/settings_savedforms.php:1734
+msgid "Image Width:"
+msgstr "Šířka obrázku"
+
+#: templates/settings_savedforms.php:1734
+msgid "Set the height of the image in pixel or percentage. Eg.: 150px or 50%"
+msgstr "Zadejte výšku obrázku v pixelech nebo procentech. Např.: 150px nebo 50%"
+
+#: templates/settings_savedforms.php:1734
+msgid "Image Height:"
+msgstr "Výška obrázku:"
+
+#: templates/settings_savedforms.php:1734
+msgid "Answer Score:"
+msgstr "Počet bodů:"
+
+#: templates/settings_savedforms.php:1765
+msgid "AutoComplete"
+msgstr "Automatické dokončení"
+
+#: templates/settings_savedforms.php:1770
+msgid "View Answers"
+msgstr "Zobrazit odpovědi"
+
+#: templates/settings_savedforms.php:1773
+msgid "Remove Open Answer"
+msgstr "Odebrat otevřenou (textovou) odpověď"
+
+#: templates/settings_savedforms.php:1778
+msgid "Export Answers"
+msgstr "Exportovat odpovědi"
+
+#: templates/settings_savedforms.php:1797
+#: templates/settings_savedforms.php:1800
+msgid "answer:"
+msgstr "odpověď:"
+
+#: templates/settings_savedforms.php:1797
+#: templates/settings_savedforms.php:1800
+msgid "no"
+msgstr "ne"
+
+#: templates/settings_savedforms.php:1815
+msgid "DELETE"
+msgstr "SMAZAT"
+
+#: templates/settings_savedforms.php:1815
+msgid "Resetting the survey means all users can vote again."
+msgstr "Resetování dotazníku znamená, že všichni uživatelé mohou hlasovat znovu."
+
+#: templates/settings_savedforms.php:1815
+msgid "RESET"
+msgstr "RESETOVAT"
+
+#: templates/settings_savedforms.php:1831
+msgid "Owner"
+msgstr "Vlastník"
+
+#: templates/settings_savedforms.php:1833
+msgid "Updated"
+msgstr "Aktualizováno"
+
+#: templates/settings_savedforms.php:1834
+msgid "Total Votes"
+msgstr "Celkem hlasů"
+
+#: templates/settings_savedforms.php:1835
+msgid "Global"
+msgstr "Globální"
+
+#: templates/settings_savedforms.php:1836
+msgid "Expired"
+msgstr "expirované"
+
+#: templates/settings_savedforms.php:1837
+msgid "Actions"
+msgstr "Akce"
+
+#: templates/settings_savedforms.php:1856
+msgid "Reset"
+msgstr "Resetovat"
+
+#: templates/settings_savedforms.php:1864
+msgid ""
+"These items will be permanently deleted and cannot be recovered. Are you "
+"sure?"
+msgstr ""
+"Tyto položky budou trvale odstraněny a nemohou být obnoveny. Opravdu to "
+"chcete udělat?"
+
+#: templates/settings_savedforms.php:1866
+msgid "Reset Survey Answers"
+msgstr "Vymazat odpovědi dotazníku"
+
+#: templates/settings_savedforms.php:1867
+msgid ""
+"The answer counts will be permanently deleted and cannot be recovered. Are "
+"you sure to reset?"
+msgstr ""
+"Počty odpovědí budou trvale odstraněny a nemohou být obnoveny. Opravdu je "
+"chcete vymazat?"
+
+#: templates/settings_savedforms.php:1873
+msgid "Duplicate Survey"
+msgstr "Duplikovat dotazník"
+
+#: templates/settings_savedforms.php:1874
+msgid "Enter the name of the new survey."
+msgstr "Zadejte jméno nového dotazníku"
+
+#: templates/settings_savedforms.php:1878
+msgid "Copy Votes"
+msgstr "Zkopírovat hlasy"
+
+#: templates/settings_savedforms.php:1883
+msgid "This survey name is already exist!"
+msgstr "Tohle jméno dotazníku už existuje!"

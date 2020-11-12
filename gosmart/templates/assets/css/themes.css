@@ -1,0 +1,435 @@
+/* Animations */
+@-webkit-keyframes survey-pulse {
+	0% { -webkit-transform: scale(0.9); } 
+	50% { -webkit-transform: scale(1.1); }
+	100% { -webkit-transform: scale(0.9); }
+}
+
+@keyframes survey-pulse {
+	0% { transform: scale(0.9); } 
+	50% { transform: scale(1.1); }
+	100% { transform: scale(0.9); }
+}
+
+
+
+@-webkit-keyframes survey-pulse-2 {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes survey-pulse-2 {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
+/*
+========================================================
+Theme
+========================================================
+*/
+
+/* Selection */
+.modal-survey-theme ::-moz-selection { color: #fafafa !important; background: rgba(0, 0, 0, 0.5) !important; }
+.modal-survey-theme ::selection { color: #fafafa !important; background: rgba(0, 0, 0, 0.5) !important; }
+
+
+/* Reset */
+/*.modal-survey-theme .survey_answers:before { display: none !important; }*/
+
+/* Container */
+.modal-survey-theme { background: #eee !important; padding: 15px 15px 30px 15px !important; border-radius: 3px !important; box-shadow: 0 1px 1px rgba(0,0,0,0.01), 0 2px 2px rgba(0,0,0,0.02), 0 4px 4px rgba(0,0,0,0.03), 0 8px 8px rgba(0,0,0,0.04), 0 16px 16px rgba(0,0,0,0.05), 0 32px 32px rgba(0,0,0,0.06) !important; }
+
+
+/* Timer */
+.modal-survey-theme .quiztimer-container { background: none !important; margin: 0 auto !important; width: 80px !important; height: 80px !important; line-height: 80px !important; text-align: center !important; position: relative !important; transform: scale(1) !important; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
+.modal-survey-theme .quiztimer { position: absolute !important; z-index: 0 !important; display: block !important; width: 80px !important; height: 80px !important; top: 0 !important; left: 0 !important; border-radius: 999px !important; background: #ececec !important; box-shadow: none !important; border: 8px solid #d8d8d8; -webkit-animation-name: survey-pulse; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: ease-in-out; -webkit-animation-fill-mode: both; animation-name: survey-pulse; animation-duration: 2s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; animation-fill-mode: both; }
+.modal-survey-theme .qtdisplay { position: relative !important; z-index: 1;	font-size: 20px !important; margin-top: 0 !important; margin-left: 0 !important; color: #1f1f1f !important; border-radius: 999px !important; }
+
+
+/* Question */
+.modal-survey-theme .survey_element.survey_question, .modal-survey-theme .survey_element.section_content { margin: 0 !important; padding: 10px 5px !important; background: none !important; color: #1f1f1f !important; border: 0 !important; border-radius: 0 !important; font-size: 16px; box-shadow: none !important; }
+.modal-survey-theme .survey_question span, .modal-survey-theme .section_content span {	width: -webkit-calc(100% - 46px) !important; width: calc(100% - 92px) !important; line-height: 1.15 !important; }
+
+
+/* Item */
+.modal-survey-theme .survey_table { min-height: 92px !important; }
+.modal-survey-theme .survey_table.ms-next-question-container { min-height: 0 !important; }
+.modal-survey-theme .survey_element.survey_answers,
+.modal-survey-theme .ms-next-back.button,
+.modal-survey-theme .ms-next-question.button { color: #fafafa !important; border: 0 !important; margin: 5px !important; padding: 16px !important; font-size: 16px; border-radius: 3px !important; box-shadow: none !important; transition: all 0.3s ease !important; }
+.modal-survey-theme .survey_element.survey_answers .open_text_answer::-webkit-input-placeholder {  color: #bbb !important; }
+.modal-survey-theme .survey_element.survey_answers .open_text_answer::-moz-placeholder { color: #bbb !important; }
+.modal-survey-theme .survey_element.survey_answers .open_text_answer:-ms-input-placeholder { color: #bbb !important; }
+.modal-survey-theme .survey_element.survey_answers .open_text_answer:-moz-placeholder {	color: #bbb !important; }
+.modal-survey-theme .survey_element.survey_answers .open_text_answer { box-shadow: 0 0 0 5px rgba(255, 255, 255, 0) !important; transition: box-shadow 0.3s ease !important; }
+.modal-survey-theme .survey_element.survey_answers:not(.msnumericanswer) .open_text_answer { padding: 16px 24px !important; background: #fff !important; border: 0 !important; border-radius: 3px !important; color: #1f1f1f !important; font-size: 16px; }
+
+
+/* Item - States */
+.modal-survey-theme .survey_element.survey_answers:hover,
+.modal-survey-theme .ms-next-back.button,
+.modal-survey-theme .ms-next-question.button { opacity: 0.9 !important; }
+.modal-survey-theme .survey_element.survey_answers.survey_answer_choice:not(.active) { opacity: 1 !important; -webkit-mask-image: -webkit-radial-gradient(white, black); }
+.modal-survey-theme .survey_element.survey_answers.default_answer.selected,
+.modal-survey-theme .survey_element.survey_answers.msnumericanswer.selected,
+.modal-survey-theme .survey_element.survey_answers.msselectanswer.selected,
+.modal-survey-theme .survey_element.survey_answers.survey_open_answers.selected,
+.modal-survey-theme .survey_element.survey_answers.msdateanswer.selected { box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0) !important; transition: all 0.3s ease !important; }
+.modal-survey-theme .survey_element.survey_answers.default_answer.selected,
+.modal-survey-theme .survey_element.survey_answers.msnumericanswer.selected { box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.6) !important; }
+.modal-survey-theme .survey_element.survey_answers.selected .open_text_answer:not(.numeric_answer) { box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.6) !important; }
+
+
+/* Buttons */
+.modal-survey-theme .backstyle.survey_answer_choice,
+.modal-survey-theme .nextstyle.survey_answer_choice,
+.modal-survey-theme .backstyle1.survey_answer_choice,
+.modal-survey-theme .nextstyle1.survey_answer_choice ,
+.modal-survey-theme .backstyle2.survey_answer_choice,
+.modal-survey-theme .nextstyle2.survey_answer_choice,
+.modal-survey-theme .ms-next-back.button,
+.modal-survey-theme .ms-next-question.button { display: block !important; opacity: 1 !important; transition: all 0.5s ease !important; text-decoration: none !important; }
+
+.modal-survey-theme .backstyle.survey_answer_choice:not(.active),
+.modal-survey-theme .nextstyle.survey_answer_choice:not(.active),
+.modal-survey-theme .backstyle1.survey_answer_choice:not(.active),
+.modal-survey-theme .nextstyle1.survey_answer_choice:not(.active),
+.modal-survey-theme .backstyle2.survey_answer_choice:not(.active),
+.modal-survey-theme .nextstyle2.survey_answer_choice:not(.active) { cursor: not-allowed !important; }
+
+.modal-survey-theme .backstyle.survey_answer_choice.active:hover,
+.modal-survey-theme .nextstyle.survey_answer_choice.active:hover,
+.modal-survey-theme .backstyle1.survey_answer_choice.active:hover,
+.modal-survey-theme .nextstyle1.survey_answer_choice.active:hover,
+.modal-survey-theme .backstyle2.survey_answer_choice.active:hover,
+.modal-survey-theme .nextstyle2.survey_answer_choice.active:hover,
+.modal-survey-theme .ms-next-back.button:hover,
+.modal-survey-theme .ms-next-question.button:hover { opacity: 0.9 !important; }
+
+.modal-survey-theme .survey_element.survey_answers.backstyle,
+.modal-survey-theme .survey_element.survey_answers.nextstyle,
+.modal-survey-theme .survey_element.survey_answers.backstyle1,
+.modal-survey-theme .survey_element.survey_answers.nextstyle1 { padding: 0 !important; border-radius: 999px !important; width: 46px !important; height: 46px !important; top: 50% !important; flex: 0 0 46px !important; }
+.modal-survey-theme .survey_element.survey_answers.backstyle2,
+.modal-survey-theme .survey_element.survey_answers.nextstyle2 { min-height: 64px !important; }
+
+.modal-survey-theme .survey_element.survey_answers.backstyle { left: 5px !important; right: auto !important; }
+.modal-survey-theme .survey_element.survey_answers.nextstyle { left: auto !important; right: 5px !important; }
+
+.modal-survey-theme .survey_element.survey_answers.backstyle,
+.modal-survey-theme .survey_element.survey_answers.nextstyle { margin: -23px 0 0 auto !important; }
+
+.modal-survey-theme .survey_element.survey_answers.backstyle1 { margin: 15px auto 0 0 !important; }
+.modal-survey-theme .survey_element.survey_answers.nextstyle1 { margin: 15px 0 0 auto !important; }
+
+.modal-survey-theme .survey_element.survey_answers.nextstyle:after,
+.modal-survey-theme .survey_element.survey_answers.nextstyle1:after,
+.modal-survey-theme .survey_element.survey_answers.nextstyle2:after { transition: opacity 0.5s ease; opacity: 1 !important; background: #cbcbcb !important; position: absolute !important; display: block !important; content: '' !important; pointer-events: none !important; top: 0 !important; right: 0 !important; bottom: 0 !important; left: 0 !important; width: auto !important; height: auto !important; }
+
+.modal-survey-theme .survey_element.survey_answers.nextstyle.active:after,
+.modal-survey-theme .survey_element.survey_answers.nextstyle1.active:after,
+.modal-survey-theme .survey_element.survey_answers.nextstyle2.active:after { opacity: 0 !important; }
+
+.modal-survey-theme .ms-span-text { position: relative; z-index: 1; }
+
+.modal-survey-theme .survey_element.survey_answers.backstyle img,
+.modal-survey-theme .survey_element.survey_answers.nextstyle img,
+.modal-survey-theme .survey_element.survey_answers.backstyle1 img,
+.modal-survey-theme .survey_element.survey_answers.nextstyle1 img,
+.modal-survey-theme .survey_element.survey_answers.backstyle2 img,
+.modal-survey-theme .survey_element.survey_answers.nextstyle2 img ,
+.modal-survey-theme .ms-next-back.button img,
+.modal-survey-theme .ms-next-question.button img { position: absolute !important; z-index: 1 !important; top: 50% !important; left: 50%; margin-top: -12px !important; margin-left: -12px !important; margin-right: 0 !important; display: inline-block !important; vertical-align: middle !important; }
+
+
+/* Form */
+.modal-survey-theme .ms-participant-form { text-align: center !important; margin: 10px auto !important; }
+.modal-survey-theme .ms-participant-form > p { padding: 0 !important; margin-top: 20px !important; margin-bottom: 20px !important; line-height: 1.15 !important; font-size: 20px !important; color: #1f1f1f !important; }
+.modal-survey-theme .ms-participant-form .survey_form { position: relative !important; margin: 0 !important; font-weight: normal !important; }
+.modal-survey-theme .ms-participant-form input.mspform_confirmation { display:inline-block !important; }
+.modal-survey-theme .ms-participant-form input,
+.modal-survey-theme .ms-participant-form select,
+.modal-survey-theme .ms-participant-form textarea { display: block !important; margin-bottom: 15px !important; padding: 16px 24px !important; background: #fff !important; border: 1px solid transparent !important; border-radius: 3px !important; color: #1f1f1f !important; font-size: 16px !important; text-indent: 0 !important; }
+.modal-survey-theme .ms-participant-form textarea { min-height: 160px !important; resize: vertical !important; }
+.modal-survey-theme .ms-participant-form input:focus,
+.modal-survey-theme .ms-participant-form select:focus,
+.modal-survey-theme .ms-participant-form textarea:focus { border: 1px solid transparent; }
+.modal-survey-theme .ms-participant-form input::-webkit-input-placeholder {  color: #bbb !important; }
+.modal-survey-theme .ms-participant-form input::-moz-placeholder { color: #bbb !important; }
+.modal-survey-theme .ms-participant-form input:-ms-input-placeholder { color: #bbb !important; }
+.modal-survey-theme .ms-participant-form input:-moz-placeholder {	color: #bbb !important; }
+.modal-survey-theme .ms-participant-form textarea::-webkit-input-placeholder {  color: #bbb !important; }
+.modal-survey-theme .ms-participant-form textarea::-moz-placeholder { color: #bbb !important; }
+.modal-survey-theme .ms-participant-form textarea:-ms-input-placeholder { color: #bbb !important; }
+.modal-survey-theme .ms-participant-form textarea:-moz-placeholder { color: #bbb !important; }
+.modal-survey-theme .ms-participant-form .send-participant-form.button { padding: 16px !important; font-size: 16px !important; border-radius: 3px !important; }
+.modal-survey-theme .ms-participant-form .send-participant-form.button:hover,
+.modal-survey-theme .ms-participant-form .send-participant-form.button:focus { text-decoration: none !important; opacity: 0.9 !important; }
+.modal-survey-theme .ms-participant-form .ms-custom-checkbox-field { height: auto !important; margin: 20px 0 !important; }
+.modal-survey-theme .ms-participant-form .ms-custom-radio-field { height: auto !important; margin: 20px 0 !important; }
+.modal-survey-theme .ms-participant-form .ms-custom-checkbox,
+.modal-survey-theme .ms-participant-form .ms-custom-radiobox { display: inline-block !important; margin: 0 6px 2px 0 !important; vertical-align: middle !important; }
+.modal-survey-theme .ms-participant-form .ms-custom-field label { display: inline-block !important; vertical-align: middle !important; font-size: 16px !important; font-weight: normal !important; color: #1f1f1f !important; }
+
+@media (min-width: 100px) {
+	.modal-survey-theme .ms-participant-form .ms-custom-checkbox { width: auto !important; }
+}
+
+
+/* Numeric Slider */
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-widget.ui-widget-content { background: rgba(255, 255, 255, 0.6) !important; border: 1px solid #fafafa !important; }
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-state-default,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-widget-content .ui-state-default,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-widget-header .ui-state-default,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-button,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-button.ui-state-disabled:hover,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-button.ui-state-disabled:active { background: #fafafa !important; border: 5px solid #ccc !important; }
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-state-hover,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-widget-content .ui-state-hover,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-widget-header .ui-state-hover,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-state-focus,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-widget-content .ui-state-focus,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-widget-header .ui-state-focus,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-button:hover,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-button:focus { background: #fafafa !important; border: 5px solid #ccc !important; }
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-slider-handle { border-radius: 999px !important; transform: scale(1.25) !important; transition: all 0.3s ease; }
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-slider-handle:hover,
+.modal-survey-theme.ms-jquery-ui .numeric_answer_slider .ui-slider-handle.ui-state-active { transform: scale(1.45) !important; }
+.modal-survey-theme.ms-jquery-ui .msnumericanswer .numeric_answer { color: #fafafa !important; }
+.modal-survey-theme.ms-jquery-ui .msnumericanswer .numeric_answer::-webkit-input-placeholder { color: #fafafa !important; }
+.modal-survey-theme.ms-jquery-ui .msnumericanswer .numeric_answer::-moz-placeholder { color: #fafafa !important; }
+.modal-survey-theme.ms-jquery-ui .msnumericanswer .numeric_answer:-ms-input-placeholder { color: #fafafa !important; }
+.modal-survey-theme.ms-jquery-ui .msnumericanswer .numeric_answer:-moz-placeholder { color: #fafafa !important; }
+
+
+/* Progress bar */
+.modal-survey-theme .survey-progress-bar { margin-top: 5px !important; margin-bottom: 10px !important; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
+.modal-survey-theme .survey-progress-bar .survey-progress-ln { margin: 36px 5px 0 5px !important; border-radius: 999px !important; }
+.modal-survey-theme .survey-progress-bar .survey-progress-ln .progress_counter { position: relative !important; padding: 3px !important; width: 46px !important; height: 46px !important; line-height: 46px !important; border-radius: 999px !important; margin: 0 auto !important; top: -31px !important; background: #fff; border: 8px solid #d8d8d8 !important; box-shadow: 0 0 0 2px #fff;	color: #1f1f1f !important; font-size: 14px !important; }
+.modal-survey-theme .survey-progress-bar .survey-progress-ln2 { display: block !important; margin: -8px 7px !important; padding: 0 !important; height: 100% !important; overflow: hidden !important; border-radius: 999px !important; }
+.modal-survey-theme .survey-progress-bar .progress { background-color: #fafafa !important; padding: 0px !important; border: 0px solid transparent !important; display: block !important; height: 6px !important; margin: 0 !important; width: 0; transition: width 0.75s ease 0.4s !important; }
+
+
+/* Response */
+.modal-survey-theme .survey_element.survey_endcontent { background: #fff !important; color: #1f1f1f !important; border: 0 !important; padding: 16px !important; font-size: 16px !important; border-radius: 3px !important; box-shadow: none !important; text-align: center !important; }
+.modal-survey-theme p { margin: 0 !important; }
+.modal-survey-theme .survey_element.survey_endcontent .survey_header { color: #1f1f1f !important; font-size: 20px !important; font-weight: bold !important; line-height: 1.15 !important; }
+
+
+/* Social */
+.modal-survey-theme .social-sharing { width: 100% !important; }
+.modal-survey-theme .social-sharing a { border-radius: 3px !important; }
+
+
+
+/*
+========================================================
+Theme 1
+========================================================
+*/
+
+.modal-survey-theme-1 { background: #ede8f1 !important; }
+.modal-survey-theme-1 .survey_element.survey_answers,
+.modal-survey-theme-1 .ms-next-back.button,
+.modal-survey-theme-1 .ms-next-question.button,
+.modal-survey-theme-1 .survey_element.survey_answers,
+.modal-survey-theme-1 .survey-progress-bar .survey-progress-ln,
+.modal-survey-theme-1 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-1 .ms-participant-form .send-participant-form.button:hover,
+.modal-survey-theme-1 .ms-participant-form .send-participant-form.button:focus,
+.modal-survey-theme-1 .ms-participant-form .send-participant-form.button:active,
+.modal-survey-theme-1 .ms-participant-form .send-participant-form.button:visited { background: linear-gradient( 68.1deg, rgba(152,25,175,1) -0.1%, rgba(149,22,182,1) 8.2%, rgba(92,21,173,1) 49.1%, rgba(88,22,168,1) 57.9%, rgba(74,17,177,1) 85.2%, rgba(65,17,154,1) 100.1% ) !important; }
+
+.modal-survey-theme-1 .survey_element.survey_answers,
+.modal-survey-theme-1 .survey_element.survey_answers:not(.msnumericanswer) .open_text_answer,
+.modal-survey-theme-1 .ms-participant-form input,
+.modal-survey-theme-1 .ms-participant-form select,
+.modal-survey-theme-1 .ms-participant-form textarea,
+.modal-survey-theme-1 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-1 .survey_element.survey_answers,
+.modal-survey-theme-1 .ms-next-back.button,
+.modal-survey-theme-1 .ms-next-question.button { border-radius: 3px !important; }
+
+
+/*
+========================================================
+Theme 2
+========================================================
+*/
+
+.modal-survey-theme-2 { background: #ececef !important; }
+.modal-survey-theme-2 .survey_element.survey_answers,
+.modal-survey-theme-2 .ms-next-back.button,
+.modal-survey-theme-2 .ms-next-question.button,
+.modal-survey-theme-2 .survey-progress-bar .survey-progress-ln,
+.modal-survey-theme-2 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-2 .ms-participant-form .send-participant-form.button:hover,
+.modal-survey-theme-2 .ms-participant-form .send-participant-form.button:focus,
+.modal-survey-theme-2 .ms-participant-form .send-participant-form.button:active,
+.modal-survey-theme-2 .ms-participant-form .send-participant-form.button:visited { background: linear-gradient( 68.1deg, rgb(32, 98, 175) -0.1%, rgb(22, 116, 182) 8.2%, rgb(48, 75, 166) 49.1%, rgb(54, 64, 162) 57.9%, rgb(58, 57, 159) 85.2%, rgb(60, 53, 159) 100.1% ) !important; }
+
+.modal-survey-theme-2 .survey_element.survey_answers,
+.modal-survey-theme-2 .survey_element.survey_answers:not(.msnumericanswer) .open_text_answer,
+.modal-survey-theme-2 .ms-participant-form input,
+.modal-survey-theme-2 .ms-participant-form select,
+.modal-survey-theme-2 .ms-participant-form textarea,
+.modal-survey-theme-2 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-2 .survey_element.survey_answers,
+.modal-survey-theme-2 .ms-next-back.button,
+.modal-survey-theme-2 .ms-next-question.button  { border-radius: 999px !important; }
+
+
+/*
+========================================================
+Theme 3
+========================================================
+*/
+
+.modal-survey-theme-3 { background: #ebedef !important; }
+.modal-survey-theme-3 .survey_element.survey_answers,
+.modal-survey-theme-3 .ms-next-back.button,
+.modal-survey-theme-3 .ms-next-question.button,
+.modal-survey-theme-3 .survey-progress-bar .survey-progress-ln,
+.modal-survey-theme-3 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-3 .ms-participant-form .send-participant-form.button:hover,
+.modal-survey-theme-3 .ms-participant-form .send-participant-form.button:focus,
+.modal-survey-theme-3 .ms-participant-form .send-participant-form.button:active,
+.modal-survey-theme-3 .ms-participant-form .send-participant-form.button:visited { background: linear-gradient(90deg, #02c892 0%, #3e93d0 100%) !important; }
+
+.modal-survey-theme-3 .survey_element.survey_answers,
+.modal-survey-theme-3 .survey_element.survey_answers:not(.msnumericanswer) .open_text_answer,
+.modal-survey-theme-3 .ms-participant-form input,
+.modal-survey-theme-3 .ms-participant-form select,
+.modal-survey-theme-3 .ms-participant-form textarea,
+.modal-survey-theme-3 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-3 .survey_element.survey_answers,
+.modal-survey-theme-3 .ms-next-back.button,
+.modal-survey-theme-3 .ms-next-question.button { border-radius: 0 !important; }
+
+
+/*
+========================================================
+Theme 4
+========================================================
+*/
+
+.modal-survey-theme-4 { background: transparent !important; margin: 0 !important; padding: 5px !important; box-shadow: none !important; }
+.modal-survey-theme-4:not(.modal-survey-embed) { background: #fff !important; }
+.modal-survey-theme-4 .survey_element.survey_answers,
+.modal-survey-theme-4 .ms-next-back.button,
+.modal-survey-theme-4 .ms-next-question.button,
+.modal-survey-theme-4 .survey-progress-bar .survey-progress-ln,
+.modal-survey-theme-4 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-4 .ms-participant-form .send-participant-form.button:hover,
+.modal-survey-theme-4 .ms-participant-form .send-participant-form.button:focus,
+.modal-survey-theme-4 .ms-participant-form .send-participant-form.button:active,
+.modal-survey-theme-4 .ms-participant-form .send-participant-form.button:visited { background: linear-gradient(90deg, #92a928 0%, #008552 100%) !important; }
+
+.modal-survey-theme-4 .survey_element.survey_answers,
+.modal-survey-theme-4 .survey_element.survey_answers:not(.msnumericanswer) .open_text_answer,
+.modal-survey-theme-4 .ms-participant-form input,
+.modal-survey-theme-4 .ms-participant-form select,
+.modal-survey-theme-4 .ms-participant-form textarea,
+.modal-survey-theme-4 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-4 .survey_element.survey_answers,
+.modal-survey-theme-4 .ms-next-back.button,
+.modal-survey-theme-4 .ms-next-question.button { border-radius: 2px !important; }
+
+.modal-survey-theme-4 .survey_element.survey_answers:hover,
+.modal-survey-theme-4 .survey_element.survey_answers:not(.msnumericanswer):hover { opacity: 1 !important; transform: scale(1.02) !important; }
+
+.modal-survey-theme-4 .ms-participant-form input,
+.modal-survey-theme-4 .ms-participant-form select,
+.modal-survey-theme-4 .ms-participant-form textarea { background: #000; border: 1px solid #a0d047 !important; }
+
+.modal-survey-theme-4 .ms-participant-form input:focus,
+.modal-survey-theme-4 .ms-participant-form select:focus,
+.modal-survey-theme-4 .ms-participant-form textarea:focus { border: 1px solid #1f1f1f !important; }
+
+/*
+========================================================
+Theme 5
+========================================================
+*/
+
+.modal-survey-theme-5 { background: transparent !important; margin: 0 !important; padding: 5px !important; box-shadow: none !important; }
+.modal-survey-theme-5:not(.modal-survey-embed) { background: #fff !important; }
+.modal-survey-theme-5 .survey_element.survey_answers,
+.modal-survey-theme-5 .ms-next-back.button,
+.modal-survey-theme-5 .ms-next-question.button,
+.modal-survey-theme-5 .survey-progress-bar .survey-progress-ln,
+.modal-survey-theme-5 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-5 .ms-participant-form .send-participant-form.button:hover,
+.modal-survey-theme-5 .ms-participant-form .send-participant-form.button:focus,
+.modal-survey-theme-5 .ms-participant-form .send-participant-form.button:active,
+.modal-survey-theme-5 .ms-participant-form .send-participant-form.button:visited { background: linear-gradient(45deg, #ff5050 0%, #d97229 100%) !important; }
+
+.modal-survey-theme-5 .survey_element.survey_answers,
+.modal-survey-theme-5 .survey_element.survey_answers:not(.msnumericanswer) .open_text_answer,
+.modal-survey-theme-5 .ms-participant-form input,
+.modal-survey-theme-5 .ms-participant-form select,
+.modal-survey-theme-5 .ms-participant-form textarea,
+.modal-survey-theme-5 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-5 .survey_element.survey_answers,
+.modal-survey-theme-5 .ms-next-back.button,
+.modal-survey-theme-5 .ms-next-question.button { border-radius: 2px !important; }
+
+.modal-survey-theme-5 .survey_element.survey_answers { transform: perspective(1px) translateZ(0) !important; }
+.modal-survey-theme-5 .survey_element.survey_answers:hover { opacity: 1 !important; }
+.modal-survey-theme-5 .survey_element.survey_answers.selected { -webkit-animation-name: survey-pulse-2 !important; animation-name: survey-pulse-2 !important; -webkit-animation-duration: 0.3s !important; animation-duration: 0.3s !important; -webkit-animation-timing-function: ease !important; animation-timing-function: ease !important; -webkit-animation-iteration-count: 1 !important; animation-iteration-count: 1 !important; }
+
+.modal-survey-theme-5 .ms-participant-form input,
+.modal-survey-theme-5 .ms-participant-form select,
+.modal-survey-theme-5 .ms-participant-form textarea { background: #000; border: 1px solid #eb603d !important; }
+
+.modal-survey-theme-5 .ms-participant-form input:focus,
+.modal-survey-theme-5 .ms-participant-form select:focus,
+.modal-survey-theme-5 .ms-participant-form textarea:focus { border: 1px solid #1f1f1f !important; }
+
+/*
+========================================================
+Theme 6
+========================================================
+*/
+
+.modal-survey-theme-6 { background: radial-gradient( circle farthest-corner at 34.2% 44.3%,  rgb(39, 21, 211) 6.5%, rgb(36, 234, 170) 100.2% ) !important; }
+.modal-survey-theme-6 .survey_element.survey_answers,
+.modal-survey-theme-6 .ms-next-back.button,
+.modal-survey-theme-6 .ms-next-question.button,
+.modal-survey-theme-6 .survey_element.survey_answers,
+.modal-survey-theme-6 .survey-progress-bar .survey-progress-ln,
+.modal-survey-theme-6 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-6 .ms-participant-form .send-participant-form.button:hover,
+.modal-survey-theme-6 .ms-participant-form .send-participant-form.button:focus,
+.modal-survey-theme-6 .ms-participant-form .send-participant-form.button:active,
+.modal-survey-theme-6 .ms-participant-form .send-participant-form.button:visited { background: #231849 !important; }
+
+.modal-survey-theme-6 .survey_element.survey_answers,
+.modal-survey-theme-6 .survey_element.survey_answers:not(.msnumericanswer) .open_text_answer,
+.modal-survey-theme-6 .ms-participant-form input,
+.modal-survey-theme-6 .ms-participant-form select,
+.modal-survey-theme-6 .ms-participant-form textarea,
+.modal-survey-theme-6 .ms-participant-form .send-participant-form.button,
+.modal-survey-theme-6 .survey_element.survey_answers,
+.modal-survey-theme-6 .ms-next-back.button,
+.modal-survey-theme-6 .ms-next-question.button { border-radius: 3px !important; }
+
+.modal-survey-theme-6 .survey_element.survey_question, .modal-survey-theme-6 .survey_element.section_content { color: #fff !important; }
+
+.modal-survey-theme-6 .ms-participant-form .ms-custom-field label { color: #fff !important; }
+.modal-survey-theme-6 .ms-participant-form > p { color: #fff !important; }
+
+
